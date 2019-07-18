@@ -7,8 +7,11 @@
 <body>
 <h1>Hello pppp</h1>
 
-    {include file="header"}
-    {include file="footer"}
+
+
+    {include file="header.html"}
+    {include file="footer.html"}
+
     
 </body>
 </html>
