@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-07-18 12:52:49
+/* Smarty version 3.1.33, created on 2019-07-21 22:09:57
   from 'C:\laragon\www\Smarty\header.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d306ba1e44785_30896728',
+  'unifunc' => 'content_5d34e2b56985d0_24735849',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '771f8bd481f30912883a430d50e7276a4f69672c' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\header.html',
-      1 => 1563454361,
+      1 => 1563746994,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,84 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d306ba1e44785_30896728 (Smarty_Internal_Template $_smarty_tpl) {
-?><div class="bg-grey-200">HEADER</div>
+function content_5d34e2b56985d0_24735849 (Smarty_Internal_Template $_smarty_tpl) {
+?><link rel="stylesheet" href="main.css" />
+<nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
+  <div class="container">
+    <div>
+      <a href="index.php"
+        ><img
+          class="logo rounded"
+          src="images/logo-elegance-france-2000x2000.jpg"
+      /></a>
+    </div>
+
+    <!-- BOUTTON MENU RESPONSIVE SUR PETITS ECRANS  -->
+    <button
+      class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold text-white rounded"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <!-- ///////////////////////////////////////////// -->
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item mx-0 mx-lg-1">
+          <a
+            class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger categories"
+            href=""
+            >LOGIN</a
+          >
+        </li>
+        <li class="nav-item mx-0 mx-lg-1">
+          <a
+            class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger categories"
+            href=""
+            >INSCRIPTION</a
+          >
+        </li>
+        <li class="nav-item mx-0 mx-lg-1">
+          <a
+            class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger categories"
+            href=""
+            >PANIER</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Masthead -->
+<header class="masthead text-white text-center" id="sousheader">
+  <div class="container d-flex align-items-center flex-column">
+    <!-- Masthead Avatar Image -->
+    <img class="masthead-avatar mb-5" src="img/avataaars.svg" alt="" />
+
+    <!-- Masthead Heading -->
+    <h1 class="masthead-heading mb-0 text-uppercase" id="elegance">Elegance</h1>
+
+    <!-- Icon Divider -->
+    <div class="divider-custom divider-light">
+      <div class="divider-custom-line"></div>
+      <div class="divider-custom-icon">
+        <i class="fas fa-star"></i>
+      </div>
+      <div class="divider-custom-line"></div>
+    </div>
+
+    <!-- Masthead Subheading -->
+    <p class="masthead-subheading font-weight-light mb-0">
+      Graphic Artist - Web Designer - Illustrator
+    </p>
+  </div>
+</header>
 <?php }
 }

@@ -1,5 +1,57 @@
-@tailwind base;
+/* HEADER */
 
-@tailwind components;
+#mainNav {
+  background: #000000;
+}
+#sousheader {
+  background: url("images/homme-pensif-costume-bleu-est-assis-rebord-fenetre_8353-8843.jpg")
+    no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
 
-@tailwind utilities;
+.logo {
+  width: 9%;
+}
+
+.categories:hover {
+  color: white;
+}
+
+/* ////////////// */
+
+/* CONTAIN */
+
+#about {
+  background: #000000;
+}
+#elegance {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 20%;
+}
+.iconSocial {
+  width: 40px;
+}
+.iconSocial:hover {
+  background: white;
+  cursor: pointer;
+}
+
+.texte-nos-produits {
+  color: #2f39fe;
+  padding-bottom: 5px;
+}
+/* ////////////// */
+
+/* FOOTER */
+
+#footerCol {
+  background: #000000;
+  color: white;
+}
+#sinanHill {
+  font-weight: bold;
+}
+
+/* ////////////// */
