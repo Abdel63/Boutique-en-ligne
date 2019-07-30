@@ -1,29 +1,29 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-07-22 07:28:55
-  from 'C:\laragon\www\Smarty\page1.html.tpl' */
+/* Smarty version 3.1.33, created on 2019-07-24 10:15:45
+  from 'C:\laragon\www\Smarty\panier.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d3565b79944e6_44560156',
+  'unifunc' => 'content_5d382fd18fa511_08482368',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    'b3c203b3f1f84e82e2de941ca36ba81d466d85b3' => 
+    '056b597745e6dd6cd14da44825c385a13cff9848' => 
     array (
-      0 => 'C:\\laragon\\www\\Smarty\\page1.html.tpl',
-      1 => 1563780531,
+      0 => 'C:\\laragon\\www\\Smarty\\panier.tpl',
+      1 => 1563963341,
       2 => 'file',
     ),
   ),
   'includes' => 
   array (
     'file:header.html' => 1,
-    'file:contain.html' => 1,
+    'file:panier.html' => 1,
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_5d3565b79944e6_44560156 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d382fd18fa511_08482368 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
   <head>
@@ -35,7 +35,7 @@ function content_5d3565b79944e6_44560156 (Smarty_Internal_Template $_smarty_tpl)
 
 
 <?php $_smarty_tpl->_subTemplateRender("file:header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
-$_smarty_tpl->_subTemplateRender("file:contain.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+$_smarty_tpl->_subTemplateRender("file:panier.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 $_smarty_tpl->_subTemplateRender("file:footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
@@ -54,5 +54,6 @@ $_smarty_tpl->_subTemplateRender("file:footer.html", $_smarty_tpl->cache_id, $_s
  src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"><?php echo '</script'; ?>
 >
   </html>
+
 <?php }
 }

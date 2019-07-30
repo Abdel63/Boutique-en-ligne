@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-07-21 22:45:47
+/* Smarty version 3.1.33, created on 2019-07-24 09:47:53
   from 'C:\laragon\www\Smarty\contain.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d34eb1bb54d46_31335804',
+  'unifunc' => 'content_5d38294909eeb6_94325438',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '42ce22de01513932a53e579d3af1bb7bd6b17c16' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\contain.html',
-      1 => 1563749145,
+      1 => 1563961670,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d34eb1bb54d46_31335804 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d38294909eeb6_94325438 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <!-- Nos produits Section -->
 <section class="page-section portfolio" id="portfolio">
@@ -33,7 +33,7 @@ function content_5d34eb1bb54d46_31335804 (Smarty_Internal_Template $_smarty_tpl)
     </h2>
 
     <!-- Nos produits Grid Items -->
-    <div class="row">
+    <div class="row mt-2">
       <!-- Nos produits Item 1 -->
       <div class="col-md-6 col-lg-4">
         <div
@@ -50,7 +50,7 @@ function content_5d34eb1bb54d46_31335804 (Smarty_Internal_Template $_smarty_tpl)
           </div>
           <a href="index-tshirts.php"
             ><img
-              class="img-fluid"
+              class="img-fluid mx-auto mb-4"
               src="images/t-shirts/final-club_182594_FINAL-253_20190620T164640_01.jpg"
               alt="t-shirt-man"
             />
@@ -120,7 +120,7 @@ function content_5d34eb1bb54d46_31335804 (Smarty_Internal_Template $_smarty_tpl)
           </div>
           <a href="index-pants.php">
             <img
-              class="img-fluid"
+              class="img-fluid mb-4"
               src="images/pantalons/ellesse_188410_1034N-GUSTAVE-PANT-POLY_NOIR_20190708T160037_01.jpg"
               alt="pants"
           /></a>
@@ -188,7 +188,7 @@ function content_5d34eb1bb54d46_31335804 (Smarty_Internal_Template $_smarty_tpl)
           </div>
           <a href="index-accessoires.php">
             <img
-              class="img-fluid"
+              class="img-fluid mb-4"
               src="images/accessoires/california-jewels_162375_B920-1_B920-2_20181214T102833_01.jpg"
               alt="accessoires-man"
           /></a>

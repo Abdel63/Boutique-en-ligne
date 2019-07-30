@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-07-21 22:09:57
+/* Smarty version 3.1.33, created on 2019-07-24 10:19:51
   from 'C:\laragon\www\Smarty\header.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d34e2b56985d0_24735849',
+  'unifunc' => 'content_5d3830c7724ec8_92414908',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '771f8bd481f30912883a430d50e7276a4f69672c' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\header.html',
-      1 => 1563746994,
+      1 => 1563963588,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d34e2b56985d0_24735849 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d3830c7724ec8_92414908 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
   <div class="container">
@@ -59,16 +59,16 @@ function content_5d34e2b56985d0_24735849 (Smarty_Internal_Template $_smarty_tpl)
         <li class="nav-item mx-0 mx-lg-1">
           <a
             class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger categories"
-            href=""
-            >INSCRIPTION</a
-          >
+            href="monCompte.php"
+            ><img src="images/login.png" alt="compte" class="compte"
+          /></a>
         </li>
         <li class="nav-item mx-0 mx-lg-1">
           <a
             class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger categories"
-            href=""
-            >PANIER</a
-          >
+            href="panier.php"
+            ><img src="images/5420.png_860.png" alt="panier" class="panier"
+          /></a>
         </li>
       </ul>
     </div>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-07-21 22:06:34
+/* Smarty version 3.1.33, created on 2019-07-22 08:58:51
   from 'C:\laragon\www\Smarty\contain-t-shirts.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d34e1ea7d8b75_45866442',
+  'unifunc' => 'content_5d357acbb75c52_72526101',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2517b029f946504566b3106a1eb1879fe26429ac' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\contain-t-shirts.html',
-      1 => 1563746791,
+      1 => 1563785928,
       2 => 'file',
     ),
   ),
@@ -20,10 +20,10 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d34e1ea7d8b75_45866442 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d357acbb75c52_72526101 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <!-- Nos produits Grid Items -->
-<div class="row">
+<div class="row mt-4">
   <!-- Nos produits Item 1 -->
   <div class="col-md-6 col-lg-4">
     <div
@@ -40,7 +40,7 @@ function content_5d34e1ea7d8b75_45866442 (Smarty_Internal_Template $_smarty_tpl)
       </div>
       <a href=""
         ><img
-          class="img-fluid"
+          class="img-fluid mx-auto mb-4"
           src="images/t-shirts/calvin-klein_160812_J30J311023_112_20181108T155020_01.jpg"
           alt="t-shirt-man"
         />
@@ -111,7 +111,7 @@ function content_5d34e1ea7d8b75_45866442 (Smarty_Internal_Template $_smarty_tpl)
       </div>
       <a href="">
         <img
-          class="img-fluid"
+          class="img-fluid mb-4"
           src="images/t-shirts/final-club_182594_FINAL-253_20190620T164640_01.jpg"
           alt="pants"
         />
@@ -135,8 +135,8 @@ function content_5d34e1ea7d8b75_45866442 (Smarty_Internal_Template $_smarty_tpl)
       </div>
       <a href="">
         <img
-          class="img-fluid"
-          src="images/t-shirts/91aWlUPKXLL._SX342._SX._UX._SY._UY_.jpg"
+          class="img-fluid mb-4"
+          src="images/t-shirts/adidas_130171_cw1203_20180828T181415_01.jpg"
           alt="pants"
       /></a>
     </div>
@@ -158,7 +158,7 @@ function content_5d34e1ea7d8b75_45866442 (Smarty_Internal_Template $_smarty_tpl)
       </div>
       <a href="">
         <img
-          class="img-fluid"
+          class="img-fluid mb-4"
           src="images/t-shirts/lbo_181051_FAB_SHALBO-727_20190527T165921_01.jpg"
           alt="pants"
       /></a>
@@ -180,7 +180,7 @@ function content_5d34e1ea7d8b75_45866442 (Smarty_Internal_Template $_smarty_tpl)
       </div>
       <a href="">
         <img
-          class="img-fluid"
+          class="img-fluid mb-4"
           src="images/t-shirts/nasa_173220_NASA_TS_TAPE_TRICOL_NAVYBLCROU_20190307T083855_01.jpg"
           alt="accessoires-man"
       /></a>

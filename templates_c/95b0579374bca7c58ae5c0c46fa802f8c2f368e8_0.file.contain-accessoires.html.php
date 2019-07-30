@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-07-21 22:32:30
+/* Smarty version 3.1.33, created on 2019-07-22 09:06:53
   from 'C:\laragon\www\Smarty\contain-accessoires.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d34e7fef2d5b1_14811608',
+  'unifunc' => 'content_5d357cadf1e0e0_47614375',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '95b0579374bca7c58ae5c0c46fa802f8c2f368e8' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\contain-accessoires.html',
-      1 => 1563748349,
+      1 => 1563786411,
       2 => 'file',
     ),
   ),
@@ -20,10 +20,10 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d34e7fef2d5b1_14811608 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d357cadf1e0e0_47614375 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <!-- Nos produits Grid Items -->
-<div class="row">
+<div class="row mt-4">
   <!-- Nos produits Item 1 -->
   <div class="col-md-6 col-lg-4">
     <div
@@ -40,7 +40,7 @@ function content_5d34e7fef2d5b1_14811608 (Smarty_Internal_Template $_smarty_tpl)
       </div>
       <a href=""
         ><img
-          class="img-fluid"
+          class="img-fluid mb-4"
           src="images/accessoires/casio_22614_casio-b640wb-1bef_20180820T064609_01.jpg"
           alt="accessoires-man"
         />
@@ -111,7 +111,7 @@ function content_5d34e7fef2d5b1_14811608 (Smarty_Internal_Template $_smarty_tpl)
       </div>
       <a href="">
         <img
-          class="img-fluid"
+          class="img-fluid mb-4"
           src="images/accessoires/jack-and-jones_135924_12131657-j1809-00-sand-noosss18_20180903T142855_01.jpg"
           alt="accessoires-man"
         />
@@ -180,7 +180,7 @@ function content_5d34e7fef2d5b1_14811608 (Smarty_Internal_Template $_smarty_tpl)
       </div>
       <a href="">
         <img
-          class="img-fluid"
+          class="img-fluid mb-4"
           src="images/accessoires/tommy-jeans_180823_AM0AM04939_902_20190424T123116_01.jpg"
           alt="accessoires-man"
       /></a>

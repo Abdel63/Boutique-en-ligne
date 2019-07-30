@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-07-21 22:50:43
+/* Smarty version 3.1.33, created on 2019-07-22 09:05:21
   from 'C:\laragon\www\Smarty\contain-pants.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d34ec4384cae9_83532161',
+  'unifunc' => 'content_5d357c51471c30_82477826',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f1feba45fd14e848db0cec6689bbd86f092cc14f' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\contain-pants.html',
-      1 => 1563749441,
+      1 => 1563786318,
       2 => 'file',
     ),
   ),
@@ -20,10 +20,10 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d34ec4384cae9_83532161 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d357c51471c30_82477826 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <!-- Nos produits Grid Items -->
-<div class="row">
+<div class="row mt-4">
   <!-- Nos produits Item 1 -->
   <div class="col-md-6 col-lg-4">
     <div
@@ -40,7 +40,7 @@ function content_5d34ec4384cae9_83532161 (Smarty_Internal_Template $_smarty_tpl)
       </div>
       <a href=""
         ><img
-          class="img-fluid"
+          class="img-fluid mx-auto mb-4"
           src="images/pantalons/frilivin_148359_1393_GREY_20180723T152845_01.jpg"
           alt="pants"
         />
@@ -111,7 +111,7 @@ function content_5d34ec4384cae9_83532161 (Smarty_Internal_Template $_smarty_tpl)
       </div>
       <a href="">
         <img
-          class="img-fluid"
+          class="img-fluid mb-4"
           src="images/pantalons/lbo_126715_fab-lbo-lc-b-1-white_20180828T174812_011.jpg"
           alt="pants"
         />
@@ -180,7 +180,7 @@ function content_5d34ec4384cae9_83532161 (Smarty_Internal_Template $_smarty_tpl)
       </div>
       <a href="">
         <img
-          class="img-fluid"
+          class="img-fluid mb-4"
           src="images/pantalons/project-x_140914_88180026-kh_20180903T150654_01.jpg"
           alt="pants"
       /></a>
