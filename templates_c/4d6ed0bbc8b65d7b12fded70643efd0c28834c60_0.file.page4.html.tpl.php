@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-07-21 22:45:49
+/* Smarty version 3.1.33, created on 2019-07-31 07:48:01
   from 'C:\laragon\www\Smarty\page4.html.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d34eb1da343f2_74369384',
+  'unifunc' => 'content_5d4147b147bf88_88036468',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4d6ed0bbc8b65d7b12fded70643efd0c28834c60' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\page4.html.tpl',
-      1 => 1563748668,
+      1 => 1564126601,
       2 => 'file',
     ),
   ),
@@ -23,12 +23,12 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_5d34eb1da343f2_74369384 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d4147b147bf88_88036468 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Pants</title>
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>

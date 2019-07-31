@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-07-21 21:52:31
+/* Smarty version 3.1.33, created on 2019-07-31 07:47:50
   from 'C:\laragon\www\Smarty\page2.html.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d34de9f2cc5d9_27251264',
+  'unifunc' => 'content_5d4147a6e8b8a6_69489189',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4d0d700638b5929088260437f6a269af7096c8ea' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\page2.html.tpl',
-      1 => 1563745946,
+      1 => 1564126598,
       2 => 'file',
     ),
   ),
@@ -23,12 +23,12 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_5d34de9f2cc5d9_27251264 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d4147a6e8b8a6_69489189 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>T-Shirts</title>
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
