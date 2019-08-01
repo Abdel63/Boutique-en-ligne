@@ -3,7 +3,7 @@
 
 class produits
 {
-
+    private $_id;
     private $_nom;
     private $_description;
     private $_prix;
@@ -13,6 +13,7 @@ class produits
     function __construct($nom, $description, $prix, $image)
     {
 
+        $this->_id = $id;
         $this->_nom = $nom;
         $this->_description = $description;
         $this->_prix = $prix;
