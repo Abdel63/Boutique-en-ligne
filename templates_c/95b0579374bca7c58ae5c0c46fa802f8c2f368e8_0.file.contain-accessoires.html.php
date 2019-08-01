@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-07-22 09:06:53
+/* Smarty version 3.1.33, created on 2019-08-01 14:14:09
   from 'C:\laragon\www\Smarty\contain-accessoires.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d357cadf1e0e0_47614375',
+  'unifunc' => 'content_5d42f3b188dc60_85460020',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '95b0579374bca7c58ae5c0c46fa802f8c2f368e8' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\contain-accessoires.html',
-      1 => 1563786411,
+      1 => 1564668847,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d357cadf1e0e0_47614375 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d42f3b188dc60_85460020 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <!-- Nos produits Grid Items -->
 <div class="row mt-4">
@@ -33,11 +33,7 @@ function content_5d357cadf1e0e0_47614375 (Smarty_Internal_Template $_smarty_tpl)
     >
       <div
         class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-      >
-        <div class="portfolio-item-caption-content text-center text-white">
-          <i class="fas fa-plus fa-3x"></i>
-        </div>
-      </div>
+      ></div>
       <a href=""
         ><img
           class="img-fluid mb-4"
@@ -57,11 +53,7 @@ function content_5d357cadf1e0e0_47614375 (Smarty_Internal_Template $_smarty_tpl)
     >
       <div
         class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-      >
-        <div class="portfolio-item-caption-content text-center text-white">
-          <i class="fas fa-plus fa-3x"></i>
-        </div>
-      </div>
+      ></div>
       <a href="">
         <img
           class="img-fluid"
@@ -81,11 +73,7 @@ function content_5d357cadf1e0e0_47614375 (Smarty_Internal_Template $_smarty_tpl)
     >
       <div
         class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-      >
-        <div class="portfolio-item-caption-content text-center text-white">
-          <i class="fas fa-plus fa-3x"></i>
-        </div>
-      </div>
+      ></div>
       <a href="">
         <img
           class="img-fluid"
@@ -104,11 +92,7 @@ function content_5d357cadf1e0e0_47614375 (Smarty_Internal_Template $_smarty_tpl)
     >
       <div
         class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-      >
-        <div class="portfolio-item-caption-content text-center text-white">
-          <i class="fas fa-plus fa-3x"></i>
-        </div>
-      </div>
+      ></div>
       <a href="">
         <img
           class="img-fluid mb-4"
@@ -128,11 +112,7 @@ function content_5d357cadf1e0e0_47614375 (Smarty_Internal_Template $_smarty_tpl)
     >
       <div
         class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-      >
-        <div class="portfolio-item-caption-content text-center text-white">
-          <i class="fas fa-plus fa-3x"></i>
-        </div>
-      </div>
+      ></div>
       <a href="">
         <img
           class="img-fluid"
@@ -151,11 +131,7 @@ function content_5d357cadf1e0e0_47614375 (Smarty_Internal_Template $_smarty_tpl)
     >
       <div
         class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-      >
-        <div class="portfolio-item-caption-content text-center text-white">
-          <i class="fas fa-plus fa-3x"></i>
-        </div>
-      </div>
+      ></div>
       <a href="">
         <img
           class="img-fluid"
@@ -173,11 +149,7 @@ function content_5d357cadf1e0e0_47614375 (Smarty_Internal_Template $_smarty_tpl)
     >
       <div
         class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-      >
-        <div class="portfolio-item-caption-content text-center text-white">
-          <i class="fas fa-plus fa-3x"></i>
-        </div>
-      </div>
+      ></div>
       <a href="">
         <img
           class="img-fluid mb-4"
@@ -194,11 +166,7 @@ function content_5d357cadf1e0e0_47614375 (Smarty_Internal_Template $_smarty_tpl)
     >
       <div
         class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-      >
-        <div class="portfolio-item-caption-content text-center text-white">
-          <i class="fas fa-plus fa-3x"></i>
-        </div>
-      </div>
+      ></div>
       <a href="">
         <img
           class="img-fluid"
@@ -216,11 +184,7 @@ function content_5d357cadf1e0e0_47614375 (Smarty_Internal_Template $_smarty_tpl)
     >
       <div
         class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-      >
-        <div class="portfolio-item-caption-content text-center text-white">
-          <i class="fas fa-plus fa-3x"></i>
-        </div>
-      </div>
+      ></div>
       <a href="">
         <img
           class="img-fluid"
