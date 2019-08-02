@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-07-24 09:47:53
+/* Smarty version 3.1.33, created on 2019-08-02 09:09:34
   from 'C:\laragon\www\Smarty\contain.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d38294909eeb6_94325438',
+  'unifunc' => 'content_5d43fdce14ccf0_07853864',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '42ce22de01513932a53e579d3af1bb7bd6b17c16' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\contain.html',
-      1 => 1563961670,
+      1 => 1564736967,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d38294909eeb6_94325438 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d43fdce14ccf0_07853864 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <!-- Nos produits Section -->
 <section class="page-section portfolio" id="portfolio">
@@ -43,11 +43,7 @@ function content_5d38294909eeb6_94325438 (Smarty_Internal_Template $_smarty_tpl)
         >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-          >
-            <div class="portfolio-item-caption-content text-center text-white">
-              <i class="fas fa-plus fa-3x"></i>
-            </div>
-          </div>
+          ></div>
           <a href="index-tshirts.php"
             ><img
               class="img-fluid mx-auto mb-4"
@@ -67,11 +63,7 @@ function content_5d38294909eeb6_94325438 (Smarty_Internal_Template $_smarty_tpl)
         >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-          >
-            <div class="portfolio-item-caption-content text-center text-white">
-              <i class="fas fa-plus fa-3x"></i>
-            </div>
-          </div>
+          ></div>
           <a href="index-tshirts.php">
             <img
               class="img-fluid"
@@ -90,11 +82,7 @@ function content_5d38294909eeb6_94325438 (Smarty_Internal_Template $_smarty_tpl)
         >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-          >
-            <div class="portfolio-item-caption-content text-center text-white">
-              <i class="fas fa-plus fa-3x"></i>
-            </div>
-          </div>
+          ></div>
           <a href="index-tshirts.php">
             <img
               class="img-fluid"
@@ -113,11 +101,7 @@ function content_5d38294909eeb6_94325438 (Smarty_Internal_Template $_smarty_tpl)
         >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-          >
-            <div class="portfolio-item-caption-content text-center text-white">
-              <i class="fas fa-plus fa-3x"></i>
-            </div>
-          </div>
+          ></div>
           <a href="index-pants.php">
             <img
               class="img-fluid mb-4"
@@ -136,11 +120,7 @@ function content_5d38294909eeb6_94325438 (Smarty_Internal_Template $_smarty_tpl)
         >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-          >
-            <div class="portfolio-item-caption-content text-center text-white">
-              <i class="fas fa-plus fa-3x"></i>
-            </div>
-          </div>
+          ></div>
           <a href="index-pants.php">
             <img
               class="img-fluid"
@@ -159,11 +139,7 @@ function content_5d38294909eeb6_94325438 (Smarty_Internal_Template $_smarty_tpl)
         >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-          >
-            <div class="portfolio-item-caption-content text-center text-white">
-              <i class="fas fa-plus fa-3x"></i>
-            </div>
-          </div>
+          ></div>
           <a href="index-pants.php">
             <img
               class="img-fluid"
@@ -181,11 +157,7 @@ function content_5d38294909eeb6_94325438 (Smarty_Internal_Template $_smarty_tpl)
         >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-          >
-            <div class="portfolio-item-caption-content text-center text-white">
-              <i class="fas fa-plus fa-3x"></i>
-            </div>
-          </div>
+          ></div>
           <a href="index-accessoires.php">
             <img
               class="img-fluid mb-4"
@@ -202,11 +174,7 @@ function content_5d38294909eeb6_94325438 (Smarty_Internal_Template $_smarty_tpl)
         >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-          >
-            <div class="portfolio-item-caption-content text-center text-white">
-              <i class="fas fa-plus fa-3x"></i>
-            </div>
-          </div>
+          ></div>
           <a href="index-accessoires.php">
             <img
               class="img-fluid"
@@ -224,11 +192,7 @@ function content_5d38294909eeb6_94325438 (Smarty_Internal_Template $_smarty_tpl)
         >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-          >
-            <div class="portfolio-item-caption-content text-center text-white">
-              <i class="fas fa-plus fa-3x"></i>
-            </div>
-          </div>
+          ></div>
           <a href="index-accessoires.php">
             <img
               class="img-fluid"
@@ -281,15 +245,6 @@ function content_5d38294909eeb6_94325438 (Smarty_Internal_Template $_smarty_tpl)
     >
       Contact Me
     </h2>
-
-    <!-- Icon Divider -->
-    <div class="divider-custom">
-      <div class="divider-custom-line"></div>
-      <div class="divider-custom-icon">
-        <i class="fas fa-star"></i>
-      </div>
-      <div class="divider-custom-line"></div>
-    </div>
 
     <!-- Contact Section Form -->
     <div class="row">

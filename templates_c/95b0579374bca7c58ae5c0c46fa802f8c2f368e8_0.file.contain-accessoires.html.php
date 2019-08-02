@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-08-01 14:14:09
+/* Smarty version 3.1.33, created on 2019-08-02 09:20:38
   from 'C:\laragon\www\Smarty\contain-accessoires.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d42f3b188dc60_85460020',
+  'unifunc' => 'content_5d440066ec5064_52734974',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '95b0579374bca7c58ae5c0c46fa802f8c2f368e8' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\contain-accessoires.html',
-      1 => 1564668847,
+      1 => 1564737593,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d42f3b188dc60_85460020 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d440066ec5064_52734974 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <!-- Nos produits Grid Items -->
 <div class="row mt-4">
@@ -152,7 +152,7 @@ function content_5d42f3b188dc60_85460020 (Smarty_Internal_Template $_smarty_tpl)
       ></div>
       <a href="">
         <img
-          class="img-fluid mb-4"
+          class="img-fluid mx-auto mb-4"
           src="images/accessoires/tommy-jeans_180823_AM0AM04939_902_20190424T123116_01.jpg"
           alt="accessoires-man"
       /></a>
@@ -169,7 +169,7 @@ function content_5d42f3b188dc60_85460020 (Smarty_Internal_Template $_smarty_tpl)
       ></div>
       <a href="">
         <img
-          class="img-fluid"
+          class="img-fluid mx-auto mb-4"
           src="images/accessoires/guess_188924_M94Z51-L0MT0_JBLK_20190717T092330_01.jpg"
           alt="accessoires-man"
       /></a>
@@ -187,7 +187,7 @@ function content_5d42f3b188dc60_85460020 (Smarty_Internal_Template $_smarty_tpl)
       ></div>
       <a href="">
         <img
-          class="img-fluid"
+          class="img-fluid mx-auto mb-4"
           src="images/accessoires/uniplay_173683_CV1967_GOLD_20190301T135929_01.jpg"
           alt="accessoires-man"
       /></a>
