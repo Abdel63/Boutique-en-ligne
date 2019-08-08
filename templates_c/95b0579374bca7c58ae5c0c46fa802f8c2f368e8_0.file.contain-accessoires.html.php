@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-08-02 09:20:38
+/* Smarty version 3.1.33, created on 2019-08-08 12:49:44
   from 'C:\laragon\www\Smarty\contain-accessoires.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d440066ec5064_52734974',
+  'unifunc' => 'content_5d4c1a68685871_86671107',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '95b0579374bca7c58ae5c0c46fa802f8c2f368e8' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\contain-accessoires.html',
-      1 => 1564737593,
+      1 => 1565268574,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d440066ec5064_52734974 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d4c1a68685871_86671107 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <!-- Nos produits Grid Items -->
 <div class="row mt-4">
@@ -36,7 +36,7 @@ function content_5d440066ec5064_52734974 (Smarty_Internal_Template $_smarty_tpl)
       ></div>
       <a href=""
         ><img
-          class="img-fluid mb-4"
+          class="img-fluid mb-4 cartes"
           src="images/accessoires/casio_22614_casio-b640wb-1bef_20180820T064609_01.jpg"
           alt="accessoires-man"
         />
@@ -56,7 +56,7 @@ function content_5d440066ec5064_52734974 (Smarty_Internal_Template $_smarty_tpl)
       ></div>
       <a href="">
         <img
-          class="img-fluid"
+          class="img-fluid cartes"
           src="images/accessoires/ellesse_149162_SAAY0591_BLACK_20180730T135612_01.jpg"
           alt="accessoires-man"
         />
@@ -76,7 +76,7 @@ function content_5d440066ec5064_52734974 (Smarty_Internal_Template $_smarty_tpl)
       ></div>
       <a href="">
         <img
-          class="img-fluid"
+          class="img-fluid cartes"
           src="images/accessoires/guess_188462_TM6777POL94_BLA_20190711T091154_01.jpg"
           alt="accessoires-man"
       /></a>
@@ -95,7 +95,7 @@ function content_5d440066ec5064_52734974 (Smarty_Internal_Template $_smarty_tpl)
       ></div>
       <a href="">
         <img
-          class="img-fluid mb-4"
+          class="img-fluid mb-4 cartes"
           src="images/accessoires/jack-and-jones_135924_12131657-j1809-00-sand-noosss18_20180903T142855_01.jpg"
           alt="accessoires-man"
         />
@@ -115,7 +115,7 @@ function content_5d440066ec5064_52734974 (Smarty_Internal_Template $_smarty_tpl)
       ></div>
       <a href="">
         <img
-          class="img-fluid"
+          class="img-fluid cartes"
           src="images/accessoires/tommy-jeans_186397_AM0AM04755_002_20190618T103138_01.jpg"
           alt="accessoires-man"
       /></a>
@@ -134,7 +134,7 @@ function content_5d440066ec5064_52734974 (Smarty_Internal_Template $_smarty_tpl)
       ></div>
       <a href="">
         <img
-          class="img-fluid"
+          class="img-fluid cartes"
           src="images/accessoires/rastaclat_19156_rsclt-rc001wht_20180712T083726_01.jpg"
           alt="accessoires-man"
       /></a>
@@ -169,7 +169,7 @@ function content_5d440066ec5064_52734974 (Smarty_Internal_Template $_smarty_tpl)
       ></div>
       <a href="">
         <img
-          class="img-fluid mx-auto mb-4"
+          class="img-fluid mx-auto mb-4 cartes"
           src="images/accessoires/guess_188924_M94Z51-L0MT0_JBLK_20190717T092330_01.jpg"
           alt="accessoires-man"
       /></a>
@@ -187,7 +187,7 @@ function content_5d440066ec5064_52734974 (Smarty_Internal_Template $_smarty_tpl)
       ></div>
       <a href="">
         <img
-          class="img-fluid mx-auto mb-4"
+          class="img-fluid mx-auto mb-4 cartes"
           src="images/accessoires/uniplay_173683_CV1967_GOLD_20190301T135929_01.jpg"
           alt="accessoires-man"
       /></a>

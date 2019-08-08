@@ -7,7 +7,7 @@
   background: url("images/homme-pensif-costume-bleu-est-assis-rebord-fenetre_8353-8843.jpg")
     no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 660px;
   width: 100%;
 }
 
@@ -29,6 +29,10 @@
   border-radius: 25%;
 }
 
+#elegance {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 20%;
+}
 /* ////////////// */
 
 /* CONTAIN */
@@ -36,10 +40,7 @@
 #about {
   background: #000000;
 }
-#elegance {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  margin-top: 20%;
-}
+
 .iconSocial {
   width: 40px;
 }
@@ -49,9 +50,18 @@
 }
 
 .texte-nos-produits {
-  color: #2f39fe;
-  padding-bottom: 5px;
+  color: #3a448c;
+  padding: 40px 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2.3em;
+  /* background-color: blueviolet; */
 }
+
+.cartes {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.43);
+}
+
 /* ////////////// */
 
 /* CONTAIN LOGIN */

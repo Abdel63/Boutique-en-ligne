@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-08-02 09:09:34
+/* Smarty version 3.1.33, created on 2019-08-08 12:43:31
   from 'C:\laragon\www\Smarty\contain.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d43fdce14ccf0_07853864',
+  'unifunc' => 'content_5d4c18f33d3bc8_37737515',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '42ce22de01513932a53e579d3af1bb7bd6b17c16' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\contain.html',
-      1 => 1564736967,
+      1 => 1565268202,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d43fdce14ccf0_07853864 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d4c18f33d3bc8_37737515 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <!-- Nos produits Section -->
 <section class="page-section portfolio" id="portfolio">
@@ -46,7 +46,7 @@ function content_5d43fdce14ccf0_07853864 (Smarty_Internal_Template $_smarty_tpl)
           ></div>
           <a href="index-tshirts.php"
             ><img
-              class="img-fluid mx-auto mb-4"
+              class="img-fluid mx-auto mb-4 cartes"
               src="images/t-shirts/final-club_182594_FINAL-253_20190620T164640_01.jpg"
               alt="t-shirt-man"
             />
@@ -66,7 +66,7 @@ function content_5d43fdce14ccf0_07853864 (Smarty_Internal_Template $_smarty_tpl)
           ></div>
           <a href="index-tshirts.php">
             <img
-              class="img-fluid"
+              class="img-fluid cartes"
               src="images/t-shirts/tommy-jeans_170036_UM0UM01170_990_TP_20190307T163352_01.jpg"
               alt="t-shirts-man"
           /></a>
@@ -85,7 +85,7 @@ function content_5d43fdce14ccf0_07853864 (Smarty_Internal_Template $_smarty_tpl)
           ></div>
           <a href="index-tshirts.php">
             <img
-              class="img-fluid"
+              class="img-fluid cartes"
               src="images/t-shirts/uniplay_143034_fab18-up-t282-blk_20180903T152339_01.jpg"
               alt="t-shirts-man"
           /></a>
@@ -104,7 +104,7 @@ function content_5d43fdce14ccf0_07853864 (Smarty_Internal_Template $_smarty_tpl)
           ></div>
           <a href="index-pants.php">
             <img
-              class="img-fluid mb-4"
+              class="img-fluid mb-4 cartes"
               src="images/pantalons/ellesse_188410_1034N-GUSTAVE-PANT-POLY_NOIR_20190708T160037_01.jpg"
               alt="pants"
           /></a>
@@ -123,7 +123,7 @@ function content_5d43fdce14ccf0_07853864 (Smarty_Internal_Template $_smarty_tpl)
           ></div>
           <a href="index-pants.php">
             <img
-              class="img-fluid"
+              class="img-fluid cartes"
               src="images/pantalons/sergio-tacchini_171677_36986_013_20190227T103928_01.jpg"
               alt="pants"
           /></a>
@@ -142,7 +142,7 @@ function content_5d43fdce14ccf0_07853864 (Smarty_Internal_Template $_smarty_tpl)
           ></div>
           <a href="index-pants.php">
             <img
-              class="img-fluid"
+              class="img-fluid cartes"
               src="images/pantalons/uniplay_161259_UP-T3296_GREY_20181114T144233_01.jpg"
               alt="pants"
           /></a>
@@ -160,12 +160,13 @@ function content_5d43fdce14ccf0_07853864 (Smarty_Internal_Template $_smarty_tpl)
           ></div>
           <a href="index-accessoires.php">
             <img
-              class="img-fluid mb-4"
+              class="img-fluid mb-4 cartes"
               src="images/accessoires/california-jewels_162375_B920-1_B920-2_20181214T102833_01.jpg"
               alt="accessoires-man"
           /></a>
         </div>
       </div>
+
       <div class="col-md-6 col-lg-4">
         <div
           class="portfolio-item mx-auto"
@@ -177,7 +178,7 @@ function content_5d43fdce14ccf0_07853864 (Smarty_Internal_Template $_smarty_tpl)
           ></div>
           <a href="index-accessoires.php">
             <img
-              class="img-fluid"
+              class="img-fluid cartes"
               src="images/accessoires/calvin-klein_187259_K50K505054_BDS_20190624T165319_01.jpg"
               alt="accessoires-man"
           /></a>
@@ -195,7 +196,7 @@ function content_5d43fdce14ccf0_07853864 (Smarty_Internal_Template $_smarty_tpl)
           ></div>
           <a href="index-accessoires.php">
             <img
-              class="img-fluid"
+              class="img-fluid cartes"
               src="images/accessoires/jack-and-jones_135924_12131657-j1809-00-sand-noosss18_20180903T142855_01.jpg"
               alt="accessoires-man"
           /></a>
