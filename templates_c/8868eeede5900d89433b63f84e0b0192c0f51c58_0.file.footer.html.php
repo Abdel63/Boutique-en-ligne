@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-08-01 07:28:09
+/* Smarty version 3.1.33, created on 2019-08-09 07:11:18
   from 'C:\laragon\www\Smarty\footer.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d4294894a0af3_56581608',
+  'unifunc' => 'content_5d4d1c96ea74d4_58011020',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8868eeede5900d89433b63f84e0b0192c0f51c58' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\footer.html',
-      1 => 1564644484,
+      1 => 1565333840,
       2 => 'file',
     ),
   ),
@@ -20,14 +20,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d4294894a0af3_56581608 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d4d1c96ea74d4_58011020 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- <link rel="stylesheet" href="main.css" /> -->
 <footer class="footer text-center" id="footerCol">
   <div class="container">
     <div class="row">
       <!-- Footer Location -->
       <div class="col-lg-4 mb-5 mb-lg-0" id="footerCol">
-        <h4 class="text-uppercase mb-4">Location</h4>
+        <h4 class="text-uppercase mb-2">Location</h4>
         <p class="lead mb-0">
           63, Mer de la tranquilité. Lune <br />Abdellatif, Pequase-Aigle LU6391
         </p>
