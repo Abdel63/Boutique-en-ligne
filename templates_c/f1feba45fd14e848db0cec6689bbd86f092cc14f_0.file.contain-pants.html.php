@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-08-08 12:49:40
+/* Smarty version 3.1.33, created on 2019-08-08 13:00:14
   from 'C:\laragon\www\Smarty\contain-pants.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d4c1a6481b9d9_96908469',
+  'unifunc' => 'content_5d4c1cdeba83e3_17091198',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f1feba45fd14e848db0cec6689bbd86f092cc14f' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\contain-pants.html',
-      1 => 1565268536,
+      1 => 1565269204,
       2 => 'file',
     ),
   ),
@@ -20,10 +20,10 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d4c1a6481b9d9_96908469 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d4c1cdeba83e3_17091198 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <!-- Nos produits Grid Items -->
-<div class="row mt-4">
+<div class="row mt-4 divProduitsConteneur">
   <!-- Nos produits Item 1 -->
   <div class="col-md-6 col-lg-4">
     <div

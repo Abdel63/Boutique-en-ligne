@@ -37,6 +37,11 @@
 
 /* CONTAIN */
 
+.divProduitsConteneur {
+  width: 85%;
+  margin: 0px auto;
+}
+
 #about {
   background: #000000;
 }
@@ -131,3 +136,10 @@ body {
 }
 
 /* ////////////// */
+
+@media only screen and (max-width: 992px) {
+  /*tt ce qu'il y aura dans les curly sera valable jusqu'à une taille d'écran de 914px*/
+  .carteSansmb4 {
+    margin-bottom: 30px;
+  }
+}

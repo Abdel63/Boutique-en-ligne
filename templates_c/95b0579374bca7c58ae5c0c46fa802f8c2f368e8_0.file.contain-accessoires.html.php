@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-08-08 12:49:44
+/* Smarty version 3.1.33, created on 2019-08-08 13:10:18
   from 'C:\laragon\www\Smarty\contain-accessoires.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d4c1a68685871_86671107',
+  'unifunc' => 'content_5d4c1f3a4ee324_28420005',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '95b0579374bca7c58ae5c0c46fa802f8c2f368e8' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\contain-accessoires.html',
-      1 => 1565268574,
+      1 => 1565269490,
       2 => 'file',
     ),
   ),
@@ -20,10 +20,10 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d4c1a68685871_86671107 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d4c1f3a4ee324_28420005 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <!-- Nos produits Grid Items -->
-<div class="row mt-4">
+<div class="row mt-4 divProduitsConteneur">
   <!-- Nos produits Item 1 -->
   <div class="col-md-6 col-lg-4">
     <div
@@ -56,7 +56,7 @@ function content_5d4c1a68685871_86671107 (Smarty_Internal_Template $_smarty_tpl)
       ></div>
       <a href="">
         <img
-          class="img-fluid cartes"
+          class="img-fluid cartes carteSansmb4"
           src="images/accessoires/ellesse_149162_SAAY0591_BLACK_20180730T135612_01.jpg"
           alt="accessoires-man"
         />
@@ -76,7 +76,7 @@ function content_5d4c1a68685871_86671107 (Smarty_Internal_Template $_smarty_tpl)
       ></div>
       <a href="">
         <img
-          class="img-fluid cartes"
+          class="img-fluid cartes carteSansmb4"
           src="images/accessoires/guess_188462_TM6777POL94_BLA_20190711T091154_01.jpg"
           alt="accessoires-man"
       /></a>
@@ -115,7 +115,7 @@ function content_5d4c1a68685871_86671107 (Smarty_Internal_Template $_smarty_tpl)
       ></div>
       <a href="">
         <img
-          class="img-fluid cartes"
+          class="img-fluid cartes carteSansmb4"
           src="images/accessoires/tommy-jeans_186397_AM0AM04755_002_20190618T103138_01.jpg"
           alt="accessoires-man"
       /></a>
@@ -134,7 +134,7 @@ function content_5d4c1a68685871_86671107 (Smarty_Internal_Template $_smarty_tpl)
       ></div>
       <a href="">
         <img
-          class="img-fluid cartes"
+          class="img-fluid cartes carteSansmb4"
           src="images/accessoires/rastaclat_19156_rsclt-rc001wht_20180712T083726_01.jpg"
           alt="accessoires-man"
       /></a>
