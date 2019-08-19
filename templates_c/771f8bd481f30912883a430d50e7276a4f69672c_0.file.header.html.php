@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-07-31 14:19:25
+/* Smarty version 3.1.33, created on 2019-08-19 06:41:00
   from 'C:\laragon\www\Smarty\header.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d41a36dd917e2_54678080',
+  'unifunc' => 'content_5d5a447c247127_62427571',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '771f8bd481f30912883a430d50e7276a4f69672c' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\header.html',
-      1 => 1564582758,
+      1 => 1565343500,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d41a36dd917e2_54678080 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d5a447c247127_62427571 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
   <div class="container">
@@ -34,7 +34,7 @@ function content_5d41a36dd917e2_54678080 (Smarty_Internal_Template $_smarty_tpl)
 
     <!-- BOUTTON MENU RESPONSIVE SUR PETITS ECRANS  -->
     <button
-      class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold text-white rounded"
+      class="navbar-toggler text-uppercase font-weight-bold text-white"
       type="button"
       data-toggle="collapse"
       data-target="#navbarResponsive"
@@ -43,7 +43,6 @@ function content_5d41a36dd917e2_54678080 (Smarty_Internal_Template $_smarty_tpl)
       aria-label="Toggle navigation"
     >
       Menu
-      <i class="fas fa-bars"></i>
     </button>
     <!-- ///////////////////////////////////////////// -->
 
