@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-08-08 12:49:37
+/* Smarty version 3.1.33, created on 2019-08-23 14:26:30
   from 'C:\laragon\www\Smarty\contain-t-shirts.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d4c1a61996060_29092512',
+  'unifunc' => 'content_5d5ff7966d07e7_81284387',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2517b029f946504566b3106a1eb1879fe26429ac' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\contain-t-shirts.html',
-      1 => 1565268445,
+      1 => 1566570354,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d4c1a61996060_29092512 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d5ff7966d07e7_81284387 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <!-- Nos produits Grid Items -->
 <div class="row mt-4 divProduitsConteneur">
@@ -34,13 +34,35 @@ function content_5d4c1a61996060_29092512 (Smarty_Internal_Template $_smarty_tpl)
       <div
         class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
       ></div>
-      <a href=""
-        ><img
-          class="img-fluid mx-auto mb-4 cartes"
-          src="images/t-shirts/calvin-klein_160812_J30J311023_112_20181108T155020_01.jpg"
-          alt="t-shirt-man"
-        />
-      </a>
+
+      <img
+        id="tshirt1"
+        class="img-fluid mx-auto mb-4 cartes"
+        src="images/t-shirts/calvin-klein_160812_J30J311023_112_20181108T155020_01.jpg"
+        alt="t-shirt-man"
+      />
+    </div>
+    <div id="modalTshirts" class="modalT">
+      <div id="modal-content">
+        <span class="close">&times;</span>
+        <div id="contenuImgetText">
+          <div id="imgDiv">
+            <img
+              class="img-fluid mx-auto mb-4 cartes"
+              src="images/t-shirts/calvin-klein_160812_J30J311023_112_20181108T155020_01.jpg"
+              alt="t-shirt-man"
+            />
+          </div>
+          <div id="divText">
+            <p id="prixT1" class="prixT">29€</p>
+            <p>
+              ergzrtsdjkgs kjkjf hquezheiluf qgzlisgfvuimq zgrh emuq gflyq
+              gifeliqzuke fylq zgfeds sqfh qziu uigyhki iuly gyukg kgy ykf ,yf
+              kyf fyk,hky kytf kyf yjtf yjtf ykt f ,yjf; y
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -198,5 +220,24 @@ function content_5d4c1a61996060_29092512 (Smarty_Internal_Template $_smarty_tpl)
     </div>
   </div>
 </div>
+
+<?php echo '<script'; ?>
+>
+  var modal = document.getElementById("modalTshirts");
+  var tshirt1 = document.getElementById("tshirt1");
+  var span = document.getElementsByClassName("close")[0];
+  tshirt1.addEventListener("click", function() {
+    modal.style.display = "block";
+  });
+  span.addEventListener("click", function() {
+    modal.style.display = "none";
+  });
+  window.addEventListener("click", function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  });
+<?php echo '</script'; ?>
+>
 <?php }
 }
