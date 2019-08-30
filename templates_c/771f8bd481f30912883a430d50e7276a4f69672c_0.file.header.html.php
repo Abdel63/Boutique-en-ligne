@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-08-19 06:41:00
+/* Smarty version 3.1.33, created on 2019-08-30 11:41:02
   from 'C:\laragon\www\Smarty\header.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d5a447c247127_62427571',
+  'unifunc' => 'content_5d690b4ec6e271_66550421',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '771f8bd481f30912883a430d50e7276a4f69672c' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\header.html',
-      1 => 1565343500,
+      1 => 1567160733,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d5a447c247127_62427571 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d690b4ec6e271_66550421 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
   <div class="container">
@@ -50,13 +50,15 @@ function content_5d5a447c247127_62427571 (Smarty_Internal_Template $_smarty_tpl)
       <ul class="navbar-nav ml-auto">
         <li class="nav-item mx-0 mx-lg-1">
           <a
+            id="login"
             class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger categories"
-            href=""
+            href="monCompte.php"
             >LOGIN</a
           >
         </li>
         <li class="nav-item mx-0 mx-lg-1">
           <a
+            id="loginIcone"
             class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger categories"
             href="monCompte.php"
             ><img src="images/login.png" alt="compte" class="compte"
@@ -98,5 +100,30 @@ function content_5d5a447c247127_62427571 (Smarty_Internal_Template $_smarty_tpl)
     </p>
   </div>
 </header>
+
+<?php echo '<script'; ?>
+>
+  var loginIMG = document.getElementById("login");
+  var loginIc = document.getElementById("loginIcone");
+
+  loginIc.style.display = "none";
+  //loginIMG.style.display = "block";
+
+  loginIMG.addEventListener("click", function() {
+    loginIc.style.display = "block";
+  });
+
+  loginIMG.addEventListener("click", function() {
+    loginIMG.style.display = "none";
+  });
+
+  loginIc.addEventListener("click", function() {
+    loginIc.style.display = "none";
+  });
+  loginIc.addEventListener("click", function() {
+    loginIMG.style.display = "block";
+  });
+<?php echo '</script'; ?>
+>
 <?php }
 }

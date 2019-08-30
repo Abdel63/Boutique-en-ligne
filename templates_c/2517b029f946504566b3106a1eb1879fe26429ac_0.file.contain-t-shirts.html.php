@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-08-23 14:26:30
+/* Smarty version 3.1.33, created on 2019-08-30 08:47:40
   from 'C:\laragon\www\Smarty\contain-t-shirts.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d5ff7966d07e7_81284387',
+  'unifunc' => 'content_5d68e2aca23cc0_56786744',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2517b029f946504566b3106a1eb1879fe26429ac' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\contain-t-shirts.html',
-      1 => 1566570354,
+      1 => 1567151547,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d5ff7966d07e7_81284387 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d68e2aca23cc0_56786744 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <!-- Nos produits Grid Items -->
 <div class="row mt-4 divProduitsConteneur">
@@ -42,9 +42,10 @@ function content_5d5ff7966d07e7_81284387 (Smarty_Internal_Template $_smarty_tpl)
         alt="t-shirt-man"
       />
     </div>
+
     <div id="modalTshirts" class="modalT">
       <div id="modal-content">
-        <span class="close">&times;</span>
+        <span class="close croix">&times;</span>
         <div id="contenuImgetText">
           <div id="imgDiv">
             <img
@@ -57,8 +58,7 @@ function content_5d5ff7966d07e7_81284387 (Smarty_Internal_Template $_smarty_tpl)
             <p id="prixT1" class="prixT">29€</p>
             <p>
               ergzrtsdjkgs kjkjf hquezheiluf qgzlisgfvuimq zgrh emuq gflyq
-              gifeliqzuke fylq zgfeds sqfh qziu uigyhki iuly gyukg kgy ykf ,yf
-              kyf fyk,hky kytf kyf yjtf yjtf ykt f ,yjf; y
+              gifeliqzuke fylq zgfeds sqfh qziu uigyhki iuly gyukg kgy
             </p>
           </div>
         </div>
@@ -67,6 +67,7 @@ function content_5d5ff7966d07e7_81284387 (Smarty_Internal_Template $_smarty_tpl)
   </div>
 
   <!-- Nos produits Item 2 -->
+
   <div class="col-md-6 col-lg-4">
     <div
       class="portfolio-item mx-auto"
@@ -76,13 +77,34 @@ function content_5d5ff7966d07e7_81284387 (Smarty_Internal_Template $_smarty_tpl)
       <div
         class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
       ></div>
-      <a href="">
-        <img
-          class="img-fluid cartes"
-          src="images/t-shirts/fila_188057_687217_M67_20190703T121924_01.jpg"
-          alt="t-shirts-man"
-        />
-      </a>
+
+      <img
+        id="tshirt2"
+        class="img-fluid cartes"
+        src="images/t-shirts/fila_188057_687217_M67_20190703T121924_01.jpg"
+        alt="t-shirts-man"
+      />
+    </div>
+  </div>
+  <div id="modalTshirts1" class="modalT">
+    <div id="modal-content">
+      <span class="close1 croix">&times;</span>
+      <div id="contenuImgetText">
+        <div id="imgDiv">
+          <img
+            class="img-fluid mx-auto mb-4 cartes"
+            src="images/t-shirts/fila_188057_687217_M67_20190703T121924_01.jpg"
+            alt="t-shirt-man"
+          />
+        </div>
+        <div id="divText">
+          <p id="prixT1" class="prixT">29€</p>
+          <p>
+            ergzrtsdjkgs kjkjf hquezheiluf qgzlisgfvuimq zgrh emuq gflyq
+            gifeliqzuke fylq zgfeds sqfh qziu uigyhki iuly gyukg kgy
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -163,6 +185,8 @@ function content_5d5ff7966d07e7_81284387 (Smarty_Internal_Template $_smarty_tpl)
     </div>
   </div>
 
+  <!-- Nos produits Item 7 -->
+
   <div class="col-md-6 col-lg-4">
     <div
       class="portfolio-item mx-auto"
@@ -180,6 +204,9 @@ function content_5d5ff7966d07e7_81284387 (Smarty_Internal_Template $_smarty_tpl)
       /></a>
     </div>
   </div>
+
+  <!-- Nos produits Item 8 -->
+
   <div class="col-md-6 col-lg-4">
     <div
       class="portfolio-item mx-auto"
@@ -197,6 +224,8 @@ function content_5d5ff7966d07e7_81284387 (Smarty_Internal_Template $_smarty_tpl)
       /></a>
     </div>
   </div>
+
+  <!-- Nos produits Item 9 -->
 
   <div class="col-md-6 col-lg-4">
     <div
@@ -235,6 +264,21 @@ function content_5d5ff7966d07e7_81284387 (Smarty_Internal_Template $_smarty_tpl)
   window.addEventListener("click", function(event) {
     if (event.target == modal) {
       modal.style.display = "none";
+    }
+  });
+
+  var modal1 = document.getElementById("modalTshirts1");
+  var tshirt2 = document.getElementById("tshirt2");
+  var span1 = document.getElementsByClassName("close1")[0];
+  tshirt2.addEventListener("click", function() {
+    modal1.style.display = "block";
+  });
+  span1.addEventListener("click", function() {
+    modal1.style.display = "none";
+  });
+  window.addEventListener("click", function(event) {
+    if (event.target == modal) {
+      modal1.style.display = "none";
     }
   });
 <?php echo '</script'; ?>

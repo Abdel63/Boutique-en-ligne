@@ -27,13 +27,15 @@
       <ul class="navbar-nav ml-auto">
         <li class="nav-item mx-0 mx-lg-1">
           <a
+            id="login"
             class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger categories"
-            href=""
+            href="monCompte.php"
             >LOGIN</a
           >
         </li>
         <li class="nav-item mx-0 mx-lg-1">
           <a
+            id="loginIcone"
             class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger categories"
             href="monCompte.php"
             ><img src="images/login.png" alt="compte" class="compte"
@@ -75,3 +77,26 @@
     </p>
   </div>
 </header>
+
+<script>
+  var loginIMG = document.getElementById("login");
+  var loginIc = document.getElementById("loginIcone");
+
+  loginIc.style.display = "none";
+  //loginIMG.style.display = "block";
+
+  loginIMG.addEventListener("click", function() {
+    loginIc.style.display = "block";
+  });
+
+  loginIMG.addEventListener("click", function() {
+    loginIMG.style.display = "none";
+  });
+
+  loginIc.addEventListener("click", function() {
+    loginIc.style.display = "none";
+  });
+  loginIc.addEventListener("click", function() {
+    loginIMG.style.display = "block";
+  });
+</script>
