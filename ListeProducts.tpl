@@ -6,7 +6,7 @@
     <h2
       class="page-section-heading text-center text-uppercase mb-0 texte-nos-produits"
     >
-      NOS PRODUITS
+      NOS PRODUITS!
     </h2>
 
     <!-- Nos produits Grid Items -->
