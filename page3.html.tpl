@@ -12,7 +12,7 @@
 
 
     {include file="header.html"}
-    {include file="contain-accessoires.html"}
+    {include file="contain-accessoires.tpl"}
     {include file="footer.html"}
 
     

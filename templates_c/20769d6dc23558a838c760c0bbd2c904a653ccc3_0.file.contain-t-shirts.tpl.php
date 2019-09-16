@@ -1,51 +1,83 @@
-<link rel="stylesheet" href="main.css" />
+<?php
+/* Smarty version 3.1.33, created on 2019-09-12 10:15:44
+  from 'C:\laragon\www\Smarty\contain-t-shirts.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.33',
+  'unifunc' => 'content_5d7a1ad04b3da4_34304488',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '20769d6dc23558a838c760c0bbd2c904a653ccc3' => 
+    array (
+      0 => 'C:\\laragon\\www\\Smarty\\contain-t-shirts.tpl',
+      1 => 1568283008,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5d7a1ad04b3da4_34304488 (Smarty_Internal_Template $_smarty_tpl) {
+?><link rel="stylesheet" href="main.css" />
 <!-- Nos produits Grid Items -->
 <div class="row mt-4 divProduitsConteneur">
   <!-- Nos produits Item 1 -->
-  <div class="col-md-6 col-lg-4">
-    <div
-      class="portfolio-item mx-auto"
-      data-toggle="modal"
-      data-target="#portfolioModal1"
-    >
-      <div
-        class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-      ></div>
+  <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['products']->value, 'product');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['product']->value) {
+?>
+    <div class="col-md-6 col-lg-4">
+      <div 
+      class="portfolio-item mx-auto" 
+      data-toggle="modal" 
+      data-target="#modalTshirts<?php echo $_smarty_tpl->tpl_vars['product']->value['id'];?>
+">
+        <div class="portfolio-item-caption d-flex align-items-center justify-content-center w-100">
+        </div>
 
-      <img
-        id="tshirt1"
-        class="img-fluid mx-auto mb-4 cartes"
-        src="images/t-shirts/calvin-klein_160812_J30J311023_112_20181108T155020_01.jpg"
-        alt="t-shirt-man"
-      />
-    </div>
+        <img id="tshirt<?php echo $_smarty_tpl->tpl_vars['product']->value['id'];?>
+" class="img-fluid mx-auto mb-4 cartes" src="<?php echo $_smarty_tpl->tpl_vars['product']->value['image'];?>
+" alt="t-shirt-man" />
+      </div>
 
-    <div id="modalTshirts" class="modalT">
-      <div id="modal-content">
-        <span class="close croix">&times;</span>
-        <div id="contenuImgetText">
-          <div id="imgDiv">
-            <img
-              class="img-fluid mx-auto mb-4 cartes"
-              src="images/t-shirts/calvin-klein_160812_J30J311023_112_20181108T155020_01.jpg"
-              alt="t-shirt-man"
-            />
-          </div>
-          <div id="divText">
-            <p id="prixT1" class="prixT">29€</p>
-            <p>
-              ergzrtsdjkgs kjkjf hquezheiluf qgzlisgfvuimq zgrh emuq gflyq
-              gifeliqzuke fylq zgfeds sqfh qziu uigyhki iuly gyukg kgy
-            </p>
+      <div id="modalTshirts<?php echo $_smarty_tpl->tpl_vars['product']->value['id'];?>
+" class="modalT">
+        <div class="modal-content">
+          <span class="close croix">&times;</span>
+          <div class="contenuImgetText">
+            <div class="imgDiv">
+              <img class="img-fluid mx-auto mb-4 cartes" src="<?php echo $_smarty_tpl->tpl_vars['product']->value['image'];?>
+" alt="t-shirt-man" />
+            </div>
+            <div class="divText">
+              <p id="prixT<?php echo $_smarty_tpl->tpl_vars['product']->value['id'];?>
+" class="prixT"><?php echo $_smarty_tpl->tpl_vars['product']->value['prix'];?>
+€</p>
+              <p>
+                <?php echo $_smarty_tpl->tpl_vars['product']->value['description'];?>
+
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+<?php
+}
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
+
+
+
+
 
   <!-- Nos produits Item 2 -->
 
-  <div class="col-md-6 col-lg-4">
+  <!-- <div class="col-md-6 col-lg-4">
     <div
       class="portfolio-item mx-auto"
       data-toggle="modal"
@@ -69,7 +101,7 @@
       <div id="contenuImgetText">
         <div id="imgDiv">
           <img
-            class="img-fluid mx-auto mb-4 cartes"
+            class="img-fluid mx-auto mb-4 cartes sm-"
             src="images/t-shirts/fila_188057_687217_M67_20190703T121924_01.jpg"
             alt="t-shirt-man"
           />
@@ -85,7 +117,7 @@
     </div>
   </div>
 
-  <!-- Nos produits Item 3 -->
+  Nos produits Item 3
   <div class="col-md-6 col-lg-4">
     <div
       class="portfolio-item mx-auto"
@@ -104,7 +136,7 @@
     </div>
   </div>
 
-  <!-- Nos produits Item 4 -->
+  Nos produits Item 4
   <div class="col-md-6 col-lg-4">
     <div
       class="portfolio-item mx-auto"
@@ -124,7 +156,7 @@
     </div>
   </div>
 
-  <!-- Nos produits Item 5 -->
+  Nos produits Item 5
   <div class="col-md-6 col-lg-4">
     <div
       class="portfolio-item mx-auto"
@@ -143,7 +175,7 @@
     </div>
   </div>
 
-  <!-- Nos produits Item 6 -->
+  Nos produits Item 6
   <div class="col-md-6 col-lg-4">
     <div
       class="portfolio-item mx-auto"
@@ -164,7 +196,7 @@
 
   <!-- Nos produits Item 7 -->
 
-  <div class="col-md-6 col-lg-4">
+  <!-- <div class="col-md-6 col-lg-4">
     <div
       class="portfolio-item mx-auto"
       data-toggle="modal"
@@ -180,10 +212,10 @@
           alt="accessoires-man"
       /></a>
     </div>
-  </div>
+  </div> -->
 
   <!-- Nos produits Item 8 -->
-
+  <!-- 
   <div class="col-md-6 col-lg-4">
     <div
       class="portfolio-item mx-auto"
@@ -200,11 +232,11 @@
           alt="accessoires-man"
       /></a>
     </div>
-  </div>
+  </div> -->
 
   <!-- Nos produits Item 9 -->
 
-  <div class="col-md-6 col-lg-4">
+  <!-- <div class="col-md-6 col-lg-4">
     <div
       class="portfolio-item mx-auto"
       data-toggle="modal"
@@ -224,10 +256,11 @@
           alt="accessoires-man"
       /></a>
     </div>
-  </div>
+  </div> -->
 </div>
 
-<script>
+<?php echo '<script'; ?>
+>
   var modal = document.getElementById("modalTshirts");
   var tshirt1 = document.getElementById("tshirt1");
   var span = document.getElementsByClassName("close")[0];
@@ -243,18 +276,20 @@
     }
   });
 
-  var modal1 = document.getElementById("modalTshirts1");
-  var tshirt2 = document.getElementById("tshirt2");
-  var span1 = document.getElementsByClassName("close1")[0];
-  tshirt2.addEventListener("click", function() {
-    modal1.style.display = "block";
-  });
-  span1.addEventListener("click", function() {
-    modal1.style.display = "none";
-  });
-  window.addEventListener("click", function(event) {
-    if (event.target == modal) {
-      modal1.style.display = "none";
-    }
-  });
-</script>
+  // var modal1 = document.getElementById("modalTshirts1");
+  // var tshirt2 = document.getElementById("tshirt2");
+  // var span1 = document.getElementsByClassName("close1")[0];
+  // tshirt2.addEventListener("click", function() {
+  //   modal1.style.display = "block";
+  // });
+  // span1.addEventListener("click", function() {
+  //   modal1.style.display = "none";
+  // });
+  // window.addEventListener("click", function(event) {
+  //   if (event.target == modal) {
+  //     modal1.style.display = "none";
+  //   }
+  // });
+<?php echo '</script'; ?>
+><?php }
+}

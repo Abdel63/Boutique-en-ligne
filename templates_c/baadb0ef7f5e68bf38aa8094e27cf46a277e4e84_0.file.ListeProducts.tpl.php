@@ -1,4 +1,27 @@
-<link rel="stylesheet" href="main.css" />
+<?php
+/* Smarty version 3.1.33, created on 2019-09-16 07:54:36
+  from 'C:\laragon\www\Smarty\ListeProducts.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.33',
+  'unifunc' => 'content_5d7f3fbcf09629_07381814',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'baadb0ef7f5e68bf38aa8094e27cf46a277e4e84' => 
+    array (
+      0 => 'C:\\laragon\\www\\Smarty\\ListeProducts.tpl',
+      1 => 1568620472,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5d7f3fbcf09629_07381814 (Smarty_Internal_Template $_smarty_tpl) {
+?><link rel="stylesheet" href="main.css" />
 <!-- Nos produits Section -->
 <section class="page-section portfolio" id="portfolio">
   <div class="container">
@@ -12,27 +35,40 @@
     <!-- Nos produits Grid Items -->
     <div class="row mt-2">
       <!-- Nos produits Item 1 -->
+      <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['produits']->value, 'produit');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['produit']->value) {
+?>
       <div class="col-md-6 col-lg-4">
         <div
           class="portfolio-item mx-auto"
           data-toggle="modal"
-          data-target="#portfolioModal1"
+          data-target="#portfolioModal1<?php echo $_smarty_tpl->tpl_vars['produit']->value['id'];?>
+"
         >
           <div
-            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-          ></div>
-          <a href="index-tshirts.php"
-            ><img
-              class="img-fluid mx-auto mb-4 cartes"
-              src="images/t-shirts/final-club_182594_FINAL-253_20190620T164640_01.jpg"
-              alt="t-shirt-man"
-            />
-          </a>
+            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100 divBizarre"
+          >
+            <a href="produits.php?id=<?php echo $_smarty_tpl->tpl_vars['produit']->value['id'];?>
+"
+              ><img
+                class="img-fluid mx-auto mb-4 cartes"
+                src="<?php echo $_smarty_tpl->tpl_vars['produit']->value['image'];?>
+"
+                alt="produit à vendre"
+              />
+            </a>
+          </div>
         </div>
       </div>
+      <?php
+}
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 
       <!-- Nos produits Item 2 -->
-      <div class="col-md-6 col-lg-4">
+      <!-- <div class="col-md-6 col-lg-4">
         <div
           class="portfolio-item mx-auto"
           data-toggle="modal"
@@ -40,18 +76,19 @@
         >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-          ></div>
-          <a href="index-tshirts.php">
-            <img
-              class="img-fluid cartes"
-              src="images/t-shirts/tommy-jeans_170036_UM0UM01170_990_TP_20190307T163352_01.jpg"
-              alt="t-shirts-man"
-          /></a>
+          >
+            <a href="index-tshirts.php">
+              <img
+                class="img-fluid cartes"
+                src="images/t-shirts/tommy-jeans_170036_UM0UM01170_990_TP_20190307T163352_01.jpg"
+                alt="t-shirts-man"
+            /></a>
+          </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- Nos produits Item 3 -->
-      <div class="col-md-6 col-lg-4">
+      <!-- <div class="col-md-6 col-lg-4">
         <div
           class="portfolio-item mx-auto"
           data-toggle="modal"
@@ -59,37 +96,39 @@
         >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-          ></div>
-          <a href="index-tshirts.php">
-            <img
-              class="img-fluid cartes"
-              src="images/t-shirts/uniplay_143034_fab18-up-t282-blk_20180903T152339_01.jpg"
-              alt="t-shirts-man"
-          /></a>
+          >
+            <a href="index-tshirts.php">
+              <img
+                class="img-fluid cartes"
+                src="images/t-shirts/uniplay_143034_fab18-up-t282-blk_20180903T152339_01.jpg"
+                alt="t-shirts-man"
+            /></a>
+          </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- Nos produits Item 4 -->
-      <div class="col-md-6 col-lg-4">
+      <!-- <div class="col-md-6 col-lg-4">
         <div
           class="portfolio-item mx-auto"
           data-toggle="modal"
           data-target="#portfolioModal4"
         >
           <div
-            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-          ></div>
-          <a href="index-pants.php">
-            <img
-              class="img-fluid mb-4 cartes"
-              src="images/pantalons/ellesse_188410_1034N-GUSTAVE-PANT-POLY_NOIR_20190708T160037_01.jpg"
-              alt="pants"
-          /></a>
+            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100 divBizarre"
+          >
+            <a href="index-pants.php">
+              <img
+                class="img-fluid mb-4 cartes"
+                src="images/pantalons/ellesse_188410_1034N-GUSTAVE-PANT-POLY_NOIR_20190708T160037_01.jpg"
+                alt="pants"
+            /></a>
+          </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- Nos produits Item 5 -->
-      <div class="col-md-6 col-lg-4">
+      <!-- <div class="col-md-6 col-lg-4">
         <div
           class="portfolio-item mx-auto"
           data-toggle="modal"
@@ -97,18 +136,19 @@
         >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-          ></div>
-          <a href="index-pants.php">
-            <img
-              class="img-fluid cartes"
-              src="images/pantalons/sergio-tacchini_171677_36986_013_20190227T103928_01.jpg"
-              alt="pants"
-          /></a>
+          >
+            <a href="index-pants.php">
+              <img
+                class="img-fluid cartes"
+                src="images/pantalons/sergio-tacchini_171677_36986_013_20190227T103928_01.jpg"
+                alt="pants"
+            /></a>
+          </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- Nos produits Item 6 -->
-      <div class="col-md-6 col-lg-4">
+      <!-- <div class="col-md-6 col-lg-4">
         <div
           class="portfolio-item mx-auto"
           data-toggle="modal"
@@ -116,35 +156,37 @@
         >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-          ></div>
-          <a href="index-pants.php">
-            <img
-              class="img-fluid cartes"
-              src="images/pantalons/uniplay_161259_UP-T3296_GREY_20181114T144233_01.jpg"
-              alt="pants"
-          /></a>
+          >
+            <a href="index-pants.php">
+              <img
+                class="img-fluid cartes"
+                src="images/pantalons/uniplay_161259_UP-T3296_GREY_20181114T144233_01.jpg"
+                alt="pants"
+            /></a>
+          </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="col-md-6 col-lg-4">
+      <!-- <div class="col-md-6 col-lg-4">
         <div
           class="portfolio-item mx-auto"
           data-toggle="modal"
           data-target="#portfolioModal6"
         >
           <div
-            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-          ></div>
-          <a href="index-accessoires.php">
-            <img
-              class="img-fluid mb-4 cartes"
-              src="images/accessoires/california-jewels_162375_B920-1_B920-2_20181214T102833_01.jpg"
-              alt="accessoires-man"
-          /></a>
+            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100 divBizarre"
+          >
+            <a href="index-accessoires.php">
+              <img
+                class="img-fluid mb-4 cartes"
+                src="images/accessoires/california-jewels_162375_B920-1_B920-2_20181214T102833_01.jpg"
+                alt="accessoires-man"
+            /></a>
+          </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="col-md-6 col-lg-4">
+      <!-- <div class="col-md-6 col-lg-4">
         <div
           class="portfolio-item mx-auto"
           data-toggle="modal"
@@ -152,17 +194,18 @@
         >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-          ></div>
-          <a href="index-accessoires.php">
-            <img
-              class="img-fluid cartes"
-              src="images/accessoires/calvin-klein_187259_K50K505054_BDS_20190624T165319_01.jpg"
-              alt="accessoires-man"
-          /></a>
+          >
+            <a href="index-accessoires.php">
+              <img
+                class="img-fluid cartes"
+                src="images/accessoires/calvin-klein_187259_K50K505054_BDS_20190624T165319_01.jpg"
+                alt="accessoires-man"
+            /></a>
+          </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="col-md-6 col-lg-4">
+      <!-- <div class="col-md-6 col-lg-4">
         <div
           class="portfolio-item mx-auto"
           data-toggle="modal"
@@ -170,15 +213,16 @@
         >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-          ></div>
-          <a href="index-accessoires.php">
-            <img
-              class="img-fluid cartes"
-              src="images/accessoires/jack-and-jones_135924_12131657-j1809-00-sand-noosss18_20180903T142855_01.jpg"
-              alt="accessoires-man"
-          /></a>
+          >
+            <a href="index-accessoires.php">
+              <img
+                class="img-fluid cartes"
+                src="images/accessoires/jack-and-jones_135924_12131657-j1809-00-sand-noosss18_20180903T142855_01.jpg"
+                alt="accessoires-man"
+            /></a>
+          </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <!-- /.row -->
   </div>
@@ -308,4 +352,5 @@
       </div>
     </div>
   </div>
-</section>
+</section><?php }
+}

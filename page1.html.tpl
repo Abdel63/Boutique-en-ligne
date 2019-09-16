@@ -9,7 +9,7 @@
 
 
 {include file="header.html"}
-{include file="contain.html"}
+{include file="contain.tpl"}
 {include file="footer.html"}
 
 

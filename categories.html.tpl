@@ -9,11 +9,11 @@
 
 
 {include file="header.html"}
-{include file="monCompte.html"}
+{include file="ListeProducts.tpl"}
 {include file="footer.html"}
 
 
-
+    
     {* {if isset ($DATA)}
     <div>{$DATA}</div>
     {else}

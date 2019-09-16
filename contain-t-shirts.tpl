@@ -1,70 +1,41 @@
-<?php
-/* Smarty version 3.1.33, created on 2019-09-09 13:13:24
-  from 'C:\laragon\www\Smarty\contain-t-shirts.html' */
-
-/* @var Smarty_Internal_Template $_smarty_tpl */
-if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
-  'version' => '3.1.33',
-  'unifunc' => 'content_5d764ff4d8fd77_16845119',
-  'has_nocache_code' => false,
-  'file_dependency' => 
-  array (
-    '2517b029f946504566b3106a1eb1879fe26429ac' => 
-    array (
-      0 => 'C:\\laragon\\www\\Smarty\\contain-t-shirts.html',
-      1 => 1568034800,
-      2 => 'file',
-    ),
-  ),
-  'includes' => 
-  array (
-  ),
-),false)) {
-function content_5d764ff4d8fd77_16845119 (Smarty_Internal_Template $_smarty_tpl) {
-?><link rel="stylesheet" href="main.css" />
+<link rel="stylesheet" href="main.css" />
 <!-- Nos produits Grid Items -->
 <div class="row mt-4 divProduitsConteneur">
   <!-- Nos produits Item 1 -->
-  <div class="col-md-6 col-lg-4">
-    <div
-      class="portfolio-item mx-auto"
-      data-toggle="modal"
-      data-target="#portfolioModal1"
-    >
-      <div
-        class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-      ></div>
+  {foreach $products as $product}
+    <div class="col-md-6 col-lg-4">
+      <div 
+      class="portfolio-item mx-auto" 
+      data-toggle="modal" 
+      data-target="#modalTshirts{$product['id']}">
+        <div class="portfolio-item-caption d-flex align-items-center justify-content-center w-100">
+        </div>
 
-      <img
-        id="tshirt1"
-        class="img-fluid mx-auto mb-4 cartes"
-        src="images/t-shirts/calvin-klein_160812_J30J311023_112_20181108T155020_01.jpg"
-        alt="t-shirt-man"
-      />
-    </div>
+        <img id="tshirt{$product['id']}" class="img-fluid mx-auto mb-4 cartes" src="{$product['image']}" alt="t-shirt-man" />
+      </div>
 
-    <div id="modalTshirts" class="modalT">
-      <div id="modal-content">
-        <span class="close croix">&times;</span>
-        <div id="contenuImgetText">
-          <div id="imgDiv">
-            <img
-              class="img-fluid mx-auto mb-4 cartes"
-              src="images/t-shirts/calvin-klein_160812_J30J311023_112_20181108T155020_01.jpg"
-              alt="t-shirt-man"
-            />
-          </div>
-          <div id="divText">
-            <p id="prixT1" class="prixT">29€</p>
-            <p>
-              ergzrtsdjkgs kjkjf hquezheiluf qgzlisgfvuimq zgrh emuq gflyq
-              gifeliqzuke fylq zgfeds sqfh qziu uigyhki iuly gyukg kgy
-            </p>
+      <div id="modalTshirts{$product['id']}" class="modalT">
+        <div class="modal-content">
+          <span class="close croix">&times;</span>
+          <div class="contenuImgetText">
+            <div class="imgDiv">
+              <img class="img-fluid mx-auto mb-4 cartes" src="{$product['image']}" alt="t-shirt-man" />
+            </div>
+            <div class="divText">
+              <p id="prixT{$product['id']}" class="prixT">{$product['prix']}€</p>
+              <p>
+                {$product['description']}
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+{/foreach}
+
+
+
+
 
   <!-- Nos produits Item 2 -->
 
@@ -250,8 +221,7 @@ function content_5d764ff4d8fd77_16845119 (Smarty_Internal_Template $_smarty_tpl)
   </div> -->
 </div>
 
-<?php echo '<script'; ?>
->
+<script>
   var modal = document.getElementById("modalTshirts");
   var tshirt1 = document.getElementById("tshirt1");
   var span = document.getElementsByClassName("close")[0];
@@ -281,7 +251,4 @@ function content_5d764ff4d8fd77_16845119 (Smarty_Internal_Template $_smarty_tpl)
   //     modal1.style.display = "none";
   //   }
   // });
-<?php echo '</script'; ?>
->
-<?php }
-}
+</script>

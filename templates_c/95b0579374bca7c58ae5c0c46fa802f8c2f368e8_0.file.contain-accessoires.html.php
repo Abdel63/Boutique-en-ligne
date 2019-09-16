@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-08-08 13:10:18
+/* Smarty version 3.1.33, created on 2019-09-10 13:35:15
   from 'C:\laragon\www\Smarty\contain-accessoires.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d4c1f3a4ee324_28420005',
+  'unifunc' => 'content_5d77a69361ff59_04989636',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '95b0579374bca7c58ae5c0c46fa802f8c2f368e8' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\contain-accessoires.html',
-      1 => 1565269490,
+      1 => 1568122512,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d4c1f3a4ee324_28420005 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d77a69361ff59_04989636 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <!-- Nos produits Grid Items -->
 <div class="row mt-4 divProduitsConteneur">
@@ -152,7 +152,7 @@ function content_5d4c1f3a4ee324_28420005 (Smarty_Internal_Template $_smarty_tpl)
       ></div>
       <a href="">
         <img
-          class="img-fluid mx-auto mb-4"
+          class="img-fluid mx-auto mb-4 cartes"
           src="images/accessoires/tommy-jeans_180823_AM0AM04939_902_20190424T123116_01.jpg"
           alt="accessoires-man"
       /></a>

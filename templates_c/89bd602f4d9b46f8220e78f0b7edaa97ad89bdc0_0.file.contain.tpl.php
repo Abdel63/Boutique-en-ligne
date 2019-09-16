@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-10 13:53:42
-  from 'C:\laragon\www\Smarty\contain.html' */
+/* Smarty version 3.1.33, created on 2019-09-12 13:53:46
+  from 'C:\laragon\www\Smarty\contain.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d77aae6a7c1b1_05585439',
+  'unifunc' => 'content_5d7a4deab81f99_35872285',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '42ce22de01513932a53e579d3af1bb7bd6b17c16' => 
+    '89bd602f4d9b46f8220e78f0b7edaa97ad89bdc0' => 
     array (
-      0 => 'C:\\laragon\\www\\Smarty\\contain.html',
-      1 => 1568123551,
+      0 => 'C:\\laragon\\www\\Smarty\\contain.tpl',
+      1 => 1568296419,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d77aae6a7c1b1_05585439 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d7a4deab81f99_35872285 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <!-- Nos produits Section -->
 <section class="page-section portfolio" id="portfolio">
@@ -35,25 +35,37 @@ function content_5d77aae6a7c1b1_05585439 (Smarty_Internal_Template $_smarty_tpl)
     <!-- Nos produits Grid Items -->
     <div class="row mt-2">
       <!-- Nos produits Item 1 -->
+      <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['Categories']->value, 'Category');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['Category']->value) {
+?>
       <div class="col-md-6 col-lg-4">
         <div
           class="portfolio-item mx-auto"
           data-toggle="modal"
-          data-target="#portfolioModal1"
+          data-target="#portfolioModal1<?php echo $_smarty_tpl->tpl_vars['Category']->value['id'];?>
+"
         >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100 divBizarre"
           >
-            <a href="index-tshirts.php"
+            <a href="categories.php?id=<?php echo $_smarty_tpl->tpl_vars['Category']->value['id'];?>
+"
               ><img
                 class="img-fluid mx-auto mb-4 cartes"
-                src="images/t-shirts/final-club_182594_FINAL-253_20190620T164640_01.jpg"
+                src="<?php echo $_smarty_tpl->tpl_vars['Category']->value['image'];?>
+"
                 alt="t-shirt-man"
               />
             </a>
           </div>
         </div>
       </div>
+      <?php
+}
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 
       <!-- Nos produits Item 2 -->
       <!-- <div class="col-md-6 col-lg-4">
@@ -340,6 +352,5 @@ function content_5d77aae6a7c1b1_05585439 (Smarty_Internal_Template $_smarty_tpl)
       </div>
     </div>
   </div>
-</section>
-<?php }
+</section><?php }
 }

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-09 13:13:24
-  from 'C:\laragon\www\Smarty\contain-t-shirts.html' */
+/* Smarty version 3.1.33, created on 2019-09-09 14:28:24
+  from 'C:\laragon\www\Smarty\contain-t-shirts.php' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d764ff4d8fd77_16845119',
+  'unifunc' => 'content_5d766188ececf6_07267293',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '2517b029f946504566b3106a1eb1879fe26429ac' => 
+    'a3f9c8c6b17e6577780a36a3f287c75164662766' => 
     array (
-      0 => 'C:\\laragon\\www\\Smarty\\contain-t-shirts.html',
-      1 => 1568034800,
+      0 => 'C:\\laragon\\www\\Smarty\\contain-t-shirts.php',
+      1 => 1568039301,
       2 => 'file',
     ),
   ),
@@ -20,27 +20,17 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d764ff4d8fd77_16845119 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d766188ececf6_07267293 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
+<?php echo '<?php ';?>include "C:\laragon\www\Smarty\database.class.php" <?php echo '?>';?>
 <!-- Nos produits Grid Items -->
 <div class="row mt-4 divProduitsConteneur">
   <!-- Nos produits Item 1 -->
   <div class="col-md-6 col-lg-4">
-    <div
-      class="portfolio-item mx-auto"
-      data-toggle="modal"
-      data-target="#portfolioModal1"
-    >
-      <div
-        class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-      ></div>
+    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+      <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"></div>
 
-      <img
-        id="tshirt1"
-        class="img-fluid mx-auto mb-4 cartes"
-        src="images/t-shirts/calvin-klein_160812_J30J311023_112_20181108T155020_01.jpg"
-        alt="t-shirt-man"
-      />
+      <img id="tshirt1" class="img-fluid mx-auto mb-4 cartes" src="images/t-shirts/calvin-klein_160812_J30J311023_112_20181108T155020_01.jpg" alt="t-shirt-man" />
     </div>
 
     <div id="modalTshirts" class="modalT">
@@ -48,11 +38,7 @@ function content_5d764ff4d8fd77_16845119 (Smarty_Internal_Template $_smarty_tpl)
         <span class="close croix">&times;</span>
         <div id="contenuImgetText">
           <div id="imgDiv">
-            <img
-              class="img-fluid mx-auto mb-4 cartes"
-              src="images/t-shirts/calvin-klein_160812_J30J311023_112_20181108T155020_01.jpg"
-              alt="t-shirt-man"
-            />
+            <img class="img-fluid mx-auto mb-4 cartes" src="images/t-shirts/calvin-klein_160812_J30J311023_112_20181108T155020_01.jpg" alt="t-shirt-man" />
           </div>
           <div id="divText">
             <p id="prixT1" class="prixT">29€</p>
@@ -65,6 +51,27 @@ function content_5d764ff4d8fd77_16845119 (Smarty_Internal_Template $_smarty_tpl)
       </div>
     </div>
   </div>
+
+  <?php echo '<?php ';?>foreach ($products as $product) { <?php echo '?>';?>
+    <table class="">
+      <thead>
+        <tr>
+          <th>Prix <?php echo '<?php ';?>var_dump($products); <?php echo '?>';?></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><?php echo '<?php ';?>echo $product['prix']; <?php echo '?>';?></td>
+        </tr>
+      </tbody>
+    </table>
+  <?php echo '<?php
+
+  ';?>} <?php echo '?>';?>
+
+
+
+
 
   <!-- Nos produits Item 2 -->
 
@@ -282,6 +289,5 @@ function content_5d764ff4d8fd77_16845119 (Smarty_Internal_Template $_smarty_tpl)
   //   }
   // });
 <?php echo '</script'; ?>
->
-<?php }
+><?php }
 }

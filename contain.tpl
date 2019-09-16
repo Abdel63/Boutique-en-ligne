@@ -1,27 +1,4 @@
-<?php
-/* Smarty version 3.1.33, created on 2019-09-10 13:53:42
-  from 'C:\laragon\www\Smarty\contain.html' */
-
-/* @var Smarty_Internal_Template $_smarty_tpl */
-if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
-  'version' => '3.1.33',
-  'unifunc' => 'content_5d77aae6a7c1b1_05585439',
-  'has_nocache_code' => false,
-  'file_dependency' => 
-  array (
-    '42ce22de01513932a53e579d3af1bb7bd6b17c16' => 
-    array (
-      0 => 'C:\\laragon\\www\\Smarty\\contain.html',
-      1 => 1568123551,
-      2 => 'file',
-    ),
-  ),
-  'includes' => 
-  array (
-  ),
-),false)) {
-function content_5d77aae6a7c1b1_05585439 (Smarty_Internal_Template $_smarty_tpl) {
-?><link rel="stylesheet" href="main.css" />
+<link rel="stylesheet" href="main.css" />
 <!-- Nos produits Section -->
 <section class="page-section portfolio" id="portfolio">
   <div class="container">
@@ -35,25 +12,27 @@ function content_5d77aae6a7c1b1_05585439 (Smarty_Internal_Template $_smarty_tpl)
     <!-- Nos produits Grid Items -->
     <div class="row mt-2">
       <!-- Nos produits Item 1 -->
+      {foreach $Categories as $Category}
       <div class="col-md-6 col-lg-4">
         <div
           class="portfolio-item mx-auto"
           data-toggle="modal"
-          data-target="#portfolioModal1"
+          data-target="#portfolioModal1{$Category['id']}"
         >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100 divBizarre"
           >
-            <a href="index-tshirts.php"
+            <a href="categories.php?id={$Category['id']}"
               ><img
                 class="img-fluid mx-auto mb-4 cartes"
-                src="images/t-shirts/final-club_182594_FINAL-253_20190620T164640_01.jpg"
+                src="{$Category['image']}"
                 alt="t-shirt-man"
               />
             </a>
           </div>
         </div>
       </div>
+      {/foreach}
 
       <!-- Nos produits Item 2 -->
       <!-- <div class="col-md-6 col-lg-4">
@@ -341,5 +320,3 @@ function content_5d77aae6a7c1b1_05585439 (Smarty_Internal_Template $_smarty_tpl)
     </div>
   </div>
 </section>
-<?php }
-}
