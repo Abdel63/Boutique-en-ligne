@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-16 07:54:36
+/* Smarty version 3.1.33, created on 2019-09-17 10:55:22
   from 'C:\laragon\www\Smarty\ListeProducts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d7f3fbcf09629_07381814',
+  'unifunc' => 'content_5d80bb9a0c2148_10354522',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'baadb0ef7f5e68bf38aa8094e27cf46a277e4e84' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\ListeProducts.tpl',
-      1 => 1568620472,
+      1 => 1568717515,
       2 => 'file',
     ),
   ),
@@ -20,8 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d7f3fbcf09629_07381814 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d80bb9a0c2148_10354522 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
+
 <!-- Nos produits Section -->
 <section class="page-section portfolio" id="portfolio">
   <div class="container">
@@ -29,43 +30,100 @@ function content_5d7f3fbcf09629_07381814 (Smarty_Internal_Template $_smarty_tpl)
     <h2
       class="page-section-heading text-center text-uppercase mb-0 texte-nos-produits"
     >
-      NOS PRODUITS
+      NOS PRODUITS!
     </h2>
 
     <!-- Nos produits Grid Items -->
     <div class="row mt-2">
       <!-- Nos produits Item 1 -->
       <?php
-$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['produits']->value, 'produit');
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['produits']->value, 'product');
 if ($_from !== null) {
-foreach ($_from as $_smarty_tpl->tpl_vars['produit']->value) {
+foreach ($_from as $_smarty_tpl->tpl_vars['product']->value) {
 ?>
+
+      <div id="modalTshirts<?php echo $_smarty_tpl->tpl_vars['product']->value['id'];?>
+" class="modalT">
+        <div class="modal-content">
+          <span class="close croix">&times;</span>
+          <div class="contenuImgetText">
+            <div class="imgDiv">
+              <img class="img-fluid mx-auto mb-4 cartes" src="<?php echo $_smarty_tpl->tpl_vars['product']->value['image'];?>
+" alt="produit vendable" />
+            </div>
+            <div class="divText">
+              <p id="prixT<?php echo $_smarty_tpl->tpl_vars['product']->value['id'];?>
+" class="prixT"><?php echo $_smarty_tpl->tpl_vars['product']->value['prix'];?>
+€</p>
+              <p>
+                <?php echo $_smarty_tpl->tpl_vars['product']->value['description'];?>
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="col-md-6 col-lg-4">
-        <div
-          class="portfolio-item mx-auto"
-          data-toggle="modal"
-          data-target="#portfolioModal1<?php echo $_smarty_tpl->tpl_vars['produit']->value['id'];?>
-"
-        >
+        
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100 divBizarre"
           >
-            <a href="produits.php?id=<?php echo $_smarty_tpl->tpl_vars['produit']->value['id'];?>
+          
+              <img
+              id="imageP<?php echo $_smarty_tpl->tpl_vars['product']->value['id'];?>
 "
-              ><img
                 class="img-fluid mx-auto mb-4 cartes"
-                src="<?php echo $_smarty_tpl->tpl_vars['produit']->value['image'];?>
+                src="<?php echo $_smarty_tpl->tpl_vars['product']->value['image'];?>
 "
                 alt="produit à vendre"
               />
-            </a>
           </div>
-        </div>
+        
       </div>
       <?php
 }
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
+
+
+
+<?php echo '<script'; ?>
+>
+var imgsP = document.getElementsByClassName("cartes");
+for(var i = 0; i< imgsP.length; i++){
+  imgsP[i].addEventListener("click", function(){
+    var id = this.id.split("imageP")[1];
+    //console.log(id);
+    var modal = document.getElementById("modalTshirts"+id);
+    modal.style.display = "block";
+    var span =  modal.getElementsByClassName("close")[0];
+    span.addEventListener("click", function() {
+      modal.style.display = "none";
+    });
+  });
+}
+/* var modal = document.getElementById("modalTshirts");
+  var tshirt1 = document.getElementById("imageP");
+  var span = document.getElementsByClassName("close")[0];
+  tshirt1.addEventListener("click", function() {
+    modal.style.display = "block";
+  });
+  span.addEventListener("click", function() {
+    modal.style.display = "none";
+  });*/
+  window.addEventListener("click", function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }); 
+<?php echo '</script'; ?>
+> 
+
+
+
+
+
 
       <!-- Nos produits Item 2 -->
       <!-- <div class="col-md-6 col-lg-4">

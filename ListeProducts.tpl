@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="main.css" />
+
 <!-- Nos produits Section -->
 <section class="page-section portfolio" id="portfolio">
   <div class="container">
@@ -12,27 +13,78 @@
     <!-- Nos produits Grid Items -->
     <div class="row mt-2">
       <!-- Nos produits Item 1 -->
-      {foreach $produits as $produit}
-      <div class="col-md-6 col-lg-4">
-        <div
-          class="portfolio-item mx-auto"
-          data-toggle="modal"
-          data-target="#portfolioModal1{$produit['id']}"
-        >
-          <div
-            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100 divBizarre"
-          >
-            <a href="produits.php?id={$produit['id']}"
-              ><img
-                class="img-fluid mx-auto mb-4 cartes"
-                src="{$produit['image']}"
-                alt="produit à vendre"
-              />
-            </a>
+      {foreach $produits as $product}
+
+      <div id="modalTshirts{$product['id']}" class="modalT">
+        <div class="modal-content">
+          <span class="close croix">&times;</span>
+          <div class="contenuImgetText">
+            <div class="imgDiv">
+              <img class="img-fluid mx-auto mb-4 cartes" src="{$product['image']}" alt="produit vendable" />
+            </div>
+            <div class="divText">
+              <p id="prixT{$product['id']}" class="prixT">{$product['prix']}€</p>
+              <p>
+                {$product['description']}
+              </p>
+            </div>
           </div>
         </div>
       </div>
+
+      <div class="col-md-6 col-lg-4">
+        
+          <div
+            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100 divBizarre"
+          >
+          
+              <img
+              id="imageP{$product['id']}"
+                class="img-fluid mx-auto mb-4 cartes"
+                src="{$product['image']}"
+                alt="produit à vendre"
+              />
+          </div>
+        
+      </div>
       {/foreach}
+
+
+
+<script>
+var imgsP = document.getElementsByClassName("cartes"); //
+for(var i = 0; i< imgsP.length; i++){
+  imgsP[i].addEventListener("click", function(){
+    var id = this.id.split("imageP")[1];
+    //console.log(id);
+    var modal = document.getElementById("modalTshirts"+id);
+    modal.style.display = "block";
+    var span =  modal.getElementsByClassName("close")[0];
+    span.addEventListener("click", function() {
+      modal.style.display = "none";
+    });
+  });
+}
+/* var modal = document.getElementById("modalTshirts");
+  var tshirt1 = document.getElementById("imageP");
+  var span = document.getElementsByClassName("close")[0];
+  tshirt1.addEventListener("click", function() {
+    modal.style.display = "block";
+  });
+  span.addEventListener("click", function() {
+    modal.style.display = "none";
+  });*/
+  window.addEventListener("click", function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }); 
+</script> 
+
+
+
+
+
 
       <!-- Nos produits Item 2 -->
       <!-- <div class="col-md-6 col-lg-4">
