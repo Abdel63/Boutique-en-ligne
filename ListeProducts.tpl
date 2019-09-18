@@ -17,7 +17,9 @@
 
       <div id="modalTshirts{$product['id']}" class="modalT">
         <div class="modal-content">
+        <div id="croixRouge">
           <span class="close croix">&times;</span>
+          </div>
           <div class="contenuImgetText">
             <div class="imgDiv">
               <img class="img-fluid mx-auto mb-4 cartes" src="{$product['image']}" alt="produit vendable" />
@@ -52,16 +54,16 @@
 
 
 <script>
-var imgsP = document.getElementsByClassName("cartes"); //
-for(var i = 0; i< imgsP.length; i++){
-  imgsP[i].addEventListener("click", function(){
-    var id = this.id.split("imageP")[1];
+var imgsP = document.getElementsByClassName("cartes"); // je récupère toutes les images correspondantes à la classe cartes, qui sont dans ma bdd dans la table product
+for(var i = 0; i < imgsP.length; i++){ // je crée une boucle qui va parcourir ces images dans le dom                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+  imgsP[i].addEventListener("click", function(){ // quand je clique sur une image quelconque i, il se produit un évnènement.
+    var id = this.id.split("imageP")[1];  // je cible l'id spécifiique de l'image cliquée, auquel je retire l'id de l'image imageP, que je stocke dans une variable
     //console.log(id);
-    var modal = document.getElementById("modalTshirts"+id);
-    modal.style.display = "block";
-    var span =  modal.getElementsByClassName("close")[0];
-    span.addEventListener("click", function() {
-      modal.style.display = "none";
+    var modal = document.getElementById("modalTshirts"+id); // je récupère la fenetre modale correspondant à l'id modalTshirts en précisnat que c'est l'id spécifique de chaque produit que je veux afficher
+    modal.style.display = "block";  // j'affiche l'image 
+    var span =  modal.getElementsByClassName("close")[0]; // je récupère chaque div correspondant à la classe "close" dans mon modal
+    span.addEventListener("click", function() {    
+      modal.style.display = "none";              // ces 2 dernières lignes permettent de passer la fenêtre modale en display none, lorsque la croix est cloquée.
     });
   });
 }

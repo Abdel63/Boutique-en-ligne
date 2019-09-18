@@ -162,11 +162,16 @@ body {
   cursor: pointer;
   color: cornsilk;
   background-color: red;
+  width: 30px;
+  height: 30px;
   opacity: 1;
   padding: 0px 7px 7px 7px;
   border-radius: 50%;
 }
 
+#croixRouge {
+  margin-left: auto;
+}
 /* //////////////////// */
 
 /* FOOTER */
