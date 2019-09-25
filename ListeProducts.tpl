@@ -59,7 +59,7 @@ for(var i = 0; i < imgsP.length; i++){ // je crée une boucle qui va parcourir c
   imgsP[i].addEventListener("click", function(){ // quand je clique sur une image quelconque i, il se produit un évnènement.
     var id = this.id.split("imageP")[1];  // je cible l'id spécifiique de l'image cliquée, auquel je retire l'id de l'image imageP, que je stocke dans une variable
     //console.log(id);
-    var modal = document.getElementById("modalTshirts"+id); // je récupère la fenetre modale correspondant à l'id modalTshirts en précisnat que c'est l'id spécifique de chaque produit que je veux afficher
+    var modal = document.getElementById("modalTshirts"+id); // je récupère la fenetre modale correspondant à l'id modalTshirts en précisant que c'est l'id spécifique de chaque produit que je veux afficher
     modal.style.display = "block";  // j'affiche l'image 
     var span =  modal.getElementsByClassName("close")[0]; // je récupère chaque div correspondant à la classe "close" dans mon modal
     span.addEventListener("click", function() {    

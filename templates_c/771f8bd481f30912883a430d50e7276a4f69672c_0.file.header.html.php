@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-08-30 11:41:02
+/* Smarty version 3.1.33, created on 2019-09-25 13:11:30
   from 'C:\laragon\www\Smarty\header.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d690b4ec6e271_66550421',
+  'unifunc' => 'content_5d8b67826c7658_31678940',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '771f8bd481f30912883a430d50e7276a4f69672c' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\header.html',
-      1 => 1567160733,
+      1 => 1569416107,
       2 => 'file',
     ),
   ),
@@ -20,13 +20,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d690b4ec6e271_66550421 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8b67826c7658_31678940 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
   <div class="container">
     <div>
       <a href="index.php"
         ><img
+          id="ImageEleg"
           class="logo rounded"
           src="images/logo-elegance-france-2000x2000.jpg"
       /></a>
@@ -84,15 +85,6 @@ function content_5d690b4ec6e271_66550421 (Smarty_Internal_Template $_smarty_tpl)
 
     <!-- Masthead Heading -->
     <h1 class="masthead-heading mb-0 text-uppercase" id="elegance">Elegance</h1>
-
-    <!-- Icon Divider -->
-    <div class="divider-custom divider-light">
-      <div class="divider-custom-line"></div>
-      <div class="divider-custom-icon">
-        <i class="fas fa-star"></i>
-      </div>
-      <div class="divider-custom-line"></div>
-    </div>
 
     <!-- Masthead Subheading -->
     <p class="masthead-subheading font-weight-light mb-0">
