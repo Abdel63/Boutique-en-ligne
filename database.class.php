@@ -3,7 +3,7 @@
 // On met en variables les informations de connexion 
 $hote = 'localhost'; // Adresse du serveur
 $login = 'root'; // Login 
-$pass = ' '; // Mot de passe 
+$pass = ''; // Mot de passe 
 $base = 'elegance'; // Base de données à utiliser 
 
 // On se connecte à la base de données 

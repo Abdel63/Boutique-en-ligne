@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-18 10:29:59
+/* Smarty version 3.1.33, created on 2019-11-21 17:07:22
   from 'C:\laragon\www\Smarty\contain.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d82072762bf67_52390715',
+  'unifunc' => 'content_5dd6c44a674c04_16667173',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '89bd602f4d9b46f8220e78f0b7edaa97ad89bdc0' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\contain.tpl',
-      1 => 1568802538,
+      1 => 1574355998,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d82072762bf67_52390715 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5dd6c44a674c04_16667173 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <!-- Nos produits Section -->
 <section class="page-section portfolio" id="portfolio">
@@ -41,12 +41,6 @@ if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['Category']->value) {
 ?>
       <div class="col-md-6 col-lg-4">
-        <div
-          class="portfolio-item mx-auto"
-          data-toggle="modal"
-          data-target="#portfolioModal1<?php echo $_smarty_tpl->tpl_vars['Category']->value['id'];?>
-"
-        >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100 divBizarre"
           >
@@ -60,7 +54,6 @@ foreach ($_from as $_smarty_tpl->tpl_vars['Category']->value) {
               />
             </a>
           </div>
-        </div>
       </div>
       <?php
 }
@@ -69,11 +62,6 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 
       <!-- Nos produits Item 2 -->
       <!-- <div class="col-md-6 col-lg-4">
-        <div
-          class="portfolio-item mx-auto"
-          data-toggle="modal"
-          data-target="#portfolioModal2"
-        >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
           >
@@ -84,7 +72,6 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
                 alt="t-shirts-man"
             /></a>
           </div>
-        </div>
       </div> -->
 
       <!-- Nos produits Item 3 -->

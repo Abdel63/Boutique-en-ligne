@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-10 10:31:37
+/* Smarty version 3.1.33, created on 2019-11-29 11:18:04
   from 'C:\laragon\www\Smarty\footer.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d777b89a82a72_11610373',
+  'unifunc' => 'content_5de0fe6cd8a745_33942119',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8868eeede5900d89433b63f84e0b0192c0f51c58' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\footer.html',
-      1 => 1568111493,
+      1 => 1575026281,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d777b89a82a72_11610373 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5de0fe6cd8a745_33942119 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- <link rel="stylesheet" href="main.css" /> -->
 <footer class="footer text-center" id="footerCol">
   <div class="container">
@@ -66,10 +66,10 @@ function content_5d777b89a82a72_11610373 (Smarty_Internal_Template $_smarty_tpl)
       <div class="col-lg-4" id="footerCol">
         <h4 class="text-uppercase mb-4">About sinan</h4>
         <p class="lead mb-0">
-          My favorite web site
+          Partner
           <a href="https://www.sinanhill.fr/fr/" target="_blank" id="sinanHill"
             >SINAN HILL</a
-          >.
+          >
         </p>
       </div>
     </div>

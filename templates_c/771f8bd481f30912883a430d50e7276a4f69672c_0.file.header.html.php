@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-25 13:11:30
+/* Smarty version 3.1.33, created on 2019-11-21 17:07:22
   from 'C:\laragon\www\Smarty\header.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d8b67826c7658_31678940',
+  'unifunc' => 'content_5dd6c44a625590_07476420',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '771f8bd481f30912883a430d50e7276a4f69672c' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\header.html',
-      1 => 1569416107,
+      1 => 1574356031,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d8b67826c7658_31678940 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5dd6c44a625590_07476420 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
   <div class="container">
@@ -52,7 +52,7 @@ function content_5d8b67826c7658_31678940 (Smarty_Internal_Template $_smarty_tpl)
         <li class="nav-item mx-0 mx-lg-1">
           <a
             id="login"
-            class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger categories"
+            class="py-3 px-0 px-lg-3 rounded categories"
             href="monCompte.php"
             >LOGIN</a
           >
@@ -60,15 +60,13 @@ function content_5d8b67826c7658_31678940 (Smarty_Internal_Template $_smarty_tpl)
         <li class="nav-item mx-0 mx-lg-1">
           <a
             id="loginIcone"
-            class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger categories"
+            class="py-3 px-0 px-lg-3 rounded categories"
             href="monCompte.php"
             ><img src="images/login.png" alt="compte" class="compte"
           /></a>
         </li>
         <li class="nav-item mx-0 mx-lg-1">
-          <a
-            class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger categories"
-            href="panier.php"
+          <a class="py-3 px-0 px-lg-3 rounded categories" href="panier.php"
             ><img src="images/5420.png_860.png" alt="panier" class="panier"
           /></a>
         </li>

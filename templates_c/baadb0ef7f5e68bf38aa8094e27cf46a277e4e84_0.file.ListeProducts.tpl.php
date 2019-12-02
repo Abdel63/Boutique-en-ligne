@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-18 13:13:57
+/* Smarty version 3.1.33, created on 2019-09-29 19:47:19
   from 'C:\laragon\www\Smarty\ListeProducts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d822d955aa922_98265725',
+  'unifunc' => 'content_5d910a474a6e71_63142970',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'baadb0ef7f5e68bf38aa8094e27cf46a277e4e84' => 
     array (
       0 => 'C:\\laragon\\www\\Smarty\\ListeProducts.tpl',
-      1 => 1568809498,
+      1 => 1569786416,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d822d955aa922_98265725 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d910a474a6e71_63142970 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="main.css" />
 
 <!-- Nos produits Section -->
@@ -101,7 +101,7 @@ for(var i = 0; i < imgsP.length; i++){ // je crée une boucle qui va parcourir c
     modal.style.display = "block";  // j'affiche l'image 
     var span =  modal.getElementsByClassName("close")[0]; // je récupère chaque div correspondant à la classe "close" dans mon modal
     span.addEventListener("click", function() {    
-      modal.style.display = "none";              // ces 2 dernières lignes permettent de passer la fenêtre modale en display none, lorsque la croix est cloquée.
+      modal.style.display = "none";              // ces 2 dernières lignes permettent de passer la fenêtre modale en display none, lorsque la croix est cliquée.
     });
   });
 }

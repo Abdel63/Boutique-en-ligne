@@ -63,7 +63,7 @@ for(var i = 0; i < imgsP.length; i++){ // je crée une boucle qui va parcourir c
     modal.style.display = "block";  // j'affiche l'image 
     var span =  modal.getElementsByClassName("close")[0]; // je récupère chaque div correspondant à la classe "close" dans mon modal
     span.addEventListener("click", function() {    
-      modal.style.display = "none";              // ces 2 dernières lignes permettent de passer la fenêtre modale en display none, lorsque la croix est cloquée.
+      modal.style.display = "none";              // ces 2 dernières lignes permettent de passer la fenêtre modale en display none, lorsque la croix est cliquée.
     });
   });
 }

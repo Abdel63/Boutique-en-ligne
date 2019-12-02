@@ -18,6 +18,9 @@
   width: 9%;
 }
 
+.categories{
+  color: darkgoldenrod;
+}
 .categories:hover {
   color: whitesmoke;
 }

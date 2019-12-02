@@ -14,11 +14,6 @@
       <!-- Nos produits Item 1 -->
       {foreach $Categories as $Category}
       <div class="col-md-6 col-lg-4">
-        <div
-          class="portfolio-item mx-auto"
-          data-toggle="modal"
-          data-target="#portfolioModal1{$Category['id']}"
-        >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100 divBizarre"
           >
@@ -30,17 +25,11 @@
               />
             </a>
           </div>
-        </div>
       </div>
       {/foreach}
 
       <!-- Nos produits Item 2 -->
       <!-- <div class="col-md-6 col-lg-4">
-        <div
-          class="portfolio-item mx-auto"
-          data-toggle="modal"
-          data-target="#portfolioModal2"
-        >
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
           >
@@ -51,7 +40,6 @@
                 alt="t-shirts-man"
             /></a>
           </div>
-        </div>
       </div> -->
 
       <!-- Nos produits Item 3 -->
